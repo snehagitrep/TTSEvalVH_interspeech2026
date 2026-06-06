@@ -1,0 +1,667 @@
+job_id,utt_id,variant,text,label,target_word,target_pron_clean,notes,output_wav_template
+job0001,utt001,orig,মই পৰহি বুলি ক'লো,AgrYes_MixNo,পৰহি,,,{system}/orig/utt001.wav
+job0002,utt001,no_apostrophe,মই পৰহি বুলি কলো,AgrYes_MixNo,পৰহি,,,{system}/no_apostrophe/utt001.wav
+job0003,utt001,target_only,পৰহি,AgrYes_MixNo,পৰহি,,,{system}/target_only/utt001.wav
+job0004,utt002,orig,মই একেলগে বুলি ক'লো,AgrYes_MixNo,একেলগে,,,{system}/orig/utt002.wav
+job0005,utt002,no_apostrophe,মই একেলগে বুলি কলো,AgrYes_MixNo,একেলগে,,,{system}/no_apostrophe/utt002.wav
+job0006,utt002,target_only,একেলগে,AgrYes_MixNo,একেলগে,,,{system}/target_only/utt002.wav
+job0007,utt003,orig,মই ভাত্তা বুলি ক'লো,AgrYes_MixNo,ভাত্তা,,,{system}/orig/utt003.wav
+job0008,utt003,no_apostrophe,মই ভাত্তা বুলি কলো,AgrYes_MixNo,ভাত্তা,,,{system}/no_apostrophe/utt003.wav
+job0009,utt003,target_only,ভাত্তা,AgrYes_MixNo,ভাত্তা,,,{system}/target_only/utt003.wav
+job0010,utt004,orig,মই এতিয়ালৈকে বুলি ক'লো,AgrYes_MixYes,এতিয়ালৈকে,,,{system}/orig/utt004.wav
+job0011,utt004,no_apostrophe,মই এতিয়ালৈকে বুলি কলো,AgrYes_MixYes,এতিয়ালৈকে,,,{system}/no_apostrophe/utt004.wav
+job0012,utt004,target_only,এতিয়ালৈকে,AgrYes_MixYes,এতিয়ালৈকে,,,{system}/target_only/utt004.wav
+job0013,utt005,orig,মই আলোচনী বুলি ক'লো,AgrNo_MixYes,আলোচনী,,,{system}/orig/utt005.wav
+job0014,utt005,no_apostrophe,মই আলোচনী বুলি কলো,AgrNo_MixYes,আলোচনী,,,{system}/no_apostrophe/utt005.wav
+job0015,utt005,target_only,আলোচনী,AgrNo_MixYes,আলোচনী,,,{system}/target_only/utt005.wav
+job0016,utt006,orig,মই ক'ব বুলি ক'লো,AgrYes_MixNo,ক'ব,,,{system}/orig/utt006.wav
+job0017,utt006,no_apostrophe,মই ক'ব বুলি কলো,AgrYes_MixNo,ক'ব,,,{system}/no_apostrophe/utt006.wav
+job0018,utt006,target_only,ক'ব,AgrYes_MixNo,ক'ব,,,{system}/target_only/utt006.wav
+job0019,utt007,orig,মই ক'বলগীয়া বুলি ক'লো,AgrYes_MixYes,ক'বলগীয়া,,,{system}/orig/utt007.wav
+job0020,utt007,no_apostrophe,মই ক'বলগীয়া বুলি কলো,AgrYes_MixYes,ক'বলগীয়া,,,{system}/no_apostrophe/utt007.wav
+job0021,utt007,target_only,ক'বলগীয়া,AgrYes_MixYes,ক'বলগীয়া,,,{system}/target_only/utt007.wav
+job0022,utt008,orig,মই ক'বলৈ বুলি ক'লো,AgrYes_MixNo,ক'বলৈ,,,{system}/orig/utt008.wav
+job0023,utt008,no_apostrophe,মই ক'বলৈ বুলি কলো,AgrYes_MixNo,ক'বলৈ,,,{system}/no_apostrophe/utt008.wav
+job0024,utt008,target_only,ক'বলৈ,AgrYes_MixNo,ক'বলৈ,,,{system}/target_only/utt008.wav
+job0025,utt009,orig,মই ক'বা বুলি ক'লো,AgrYes_MixYes,ক'বা,,,{system}/orig/utt009.wav
+job0026,utt009,no_apostrophe,মই ক'বা বুলি কলো,AgrYes_MixYes,ক'বা,,,{system}/no_apostrophe/utt009.wav
+job0027,utt009,target_only,ক'বা,AgrYes_MixYes,ক'বা,,,{system}/target_only/utt009.wav
+job0028,utt010,orig,মই এনেতে বুলি ক'লো,AgrYes_MixNo,এনেতে,,,{system}/orig/utt010.wav
+job0029,utt010,no_apostrophe,মই এনেতে বুলি কলো,AgrYes_MixNo,এনেতে,,,{system}/no_apostrophe/utt010.wav
+job0030,utt010,target_only,এনেতে,AgrYes_MixNo,এনেতে,,,{system}/target_only/utt010.wav
+job0031,utt011,orig,মই এনেয়ে বুলি ক'লো,AgrYes_MixNo,এনেয়ে,,,{system}/orig/utt011.wav
+job0032,utt011,no_apostrophe,মই এনেয়ে বুলি কলো,AgrYes_MixNo,এনেয়ে,,,{system}/no_apostrophe/utt011.wav
+job0033,utt011,target_only,এনেয়ে,AgrYes_MixNo,এনেয়ে,,,{system}/target_only/utt011.wav
+job0034,utt012,orig,মই এনেয়েও বুলি ক'লো,AgrYes_MixNo,এনেয়েও,,,{system}/orig/utt012.wav
+job0035,utt012,no_apostrophe,মই এনেয়েও বুলি কলো,AgrYes_MixNo,এনেয়েও,,,{system}/no_apostrophe/utt012.wav
+job0036,utt012,target_only,এনেয়েও,AgrYes_MixNo,এনেয়েও,,,{system}/target_only/utt012.wav
+job0037,utt013,orig,মই জোকাৰি বুলি ক'লো,AgrNo_MixYes,জোকাৰি,,,{system}/orig/utt013.wav
+job0038,utt013,no_apostrophe,মই জোকাৰি বুলি কলো,AgrNo_MixYes,জোকাৰি,,,{system}/no_apostrophe/utt013.wav
+job0039,utt013,target_only,জোকাৰি,AgrNo_MixYes,জোকাৰি,,,{system}/target_only/utt013.wav
+job0040,utt014,orig,মই ইফালে বুলি ক'লো,AgrNo_MixYes,ইফালে,,,{system}/orig/utt014.wav
+job0041,utt014,no_apostrophe,মই ইফালে বুলি কলো,AgrNo_MixYes,ইফালে,,,{system}/no_apostrophe/utt014.wav
+job0042,utt014,target_only,ইফালে,AgrNo_MixYes,ইফালে,,,{system}/target_only/utt014.wav
+job0043,utt015,orig,মই ইফালৰ বুলি ক'লো,AgrNo_MixYes,ইফালৰ,,,{system}/orig/utt015.wav
+job0044,utt015,no_apostrophe,মই ইফালৰ বুলি কলো,AgrNo_MixYes,ইফালৰ,,,{system}/no_apostrophe/utt015.wav
+job0045,utt015,target_only,ইফালৰ,AgrNo_MixYes,ইফালৰ,,,{system}/target_only/utt015.wav
+job0046,utt016,orig,মই কৰিছিলি বুলি ক'লো,AgrYes_MixNo,কৰিছিলি,,,{system}/orig/utt016.wav
+job0047,utt016,no_apostrophe,মই কৰিছিলি বুলি কলো,AgrYes_MixNo,কৰিছিলি,,,{system}/no_apostrophe/utt016.wav
+job0048,utt016,target_only,কৰিছিলি,AgrYes_MixNo,কৰিছিলি,,,{system}/target_only/utt016.wav
+job0049,utt017,orig,মই কৰিছিলে বুলি ক'লো,AgrYes_MixYes,কৰিছিলে,,,{system}/orig/utt017.wav
+job0050,utt017,no_apostrophe,মই কৰিছিলে বুলি কলো,AgrYes_MixYes,কৰিছিলে,,,{system}/no_apostrophe/utt017.wav
+job0051,utt017,target_only,কৰিছিলে,AgrYes_MixYes,কৰিছিলে,,,{system}/target_only/utt017.wav
+job0052,utt018,orig,মই কৰিছিলো বুলি ক'লো,AgrYes_MixNo,কৰিছিলো,,,{system}/orig/utt018.wav
+job0053,utt018,no_apostrophe,মই কৰিছিলো বুলি কলো,AgrYes_MixNo,কৰিছিলো,,,{system}/no_apostrophe/utt018.wav
+job0054,utt018,target_only,কৰিছিলো,AgrYes_MixNo,কৰিছিলো,,,{system}/target_only/utt018.wav
+job0055,utt019,orig,মই গোটেইকেইটা বুলি ক'লো,AgrYes_MixYes,গোটেইকেইটা,,,{system}/orig/utt019.wav
+job0056,utt019,no_apostrophe,মই গোটেইকেইটা বুলি কলো,AgrYes_MixYes,গোটেইকেইটা,,,{system}/no_apostrophe/utt019.wav
+job0057,utt019,target_only,গোটেইকেইটা,AgrYes_MixYes,গোটেইকেইটা,,,{system}/target_only/utt019.wav
+job0058,utt020,orig,মই গোটেইখিনি বুলি ক'লো,AgrYes_MixNo,গোটেইখিনি,,,{system}/orig/utt020.wav
+job0059,utt020,no_apostrophe,মই গোটেইখিনি বুলি কলো,AgrYes_MixNo,গোটেইখিনি,,,{system}/no_apostrophe/utt020.wav
+job0060,utt020,target_only,গোটেইখিনি,AgrYes_MixNo,গোটেইখিনি,,,{system}/target_only/utt020.wav
+job0061,utt021,orig,মই নকৰিলে বুলি ক'লো,AgrYes_MixNo,নকৰিলে,,,{system}/orig/utt021.wav
+job0062,utt021,no_apostrophe,মই নকৰিলে বুলি কলো,AgrYes_MixNo,নকৰিলে,,,{system}/no_apostrophe/utt021.wav
+job0063,utt021,target_only,নকৰিলে,AgrYes_MixNo,নকৰিলে,,,{system}/target_only/utt021.wav
+job0064,utt022,orig,মই নকৰিলেও বুলি ক'লো,AgrYes_MixYes,নকৰিলেও,,,{system}/orig/utt022.wav
+job0065,utt022,no_apostrophe,মই নকৰিলেও বুলি কলো,AgrYes_MixYes,নকৰিলেও,,,{system}/no_apostrophe/utt022.wav
+job0066,utt022,target_only,নকৰিলেও,AgrYes_MixYes,নকৰিলেও,,,{system}/target_only/utt022.wav
+job0067,utt023,orig,মই নকৰিলো বুলি ক'লো,AgrYes_MixNo,নকৰিলো,,,{system}/orig/utt023.wav
+job0068,utt023,no_apostrophe,মই নকৰিলো বুলি কলো,AgrYes_MixNo,নকৰিলো,,,{system}/no_apostrophe/utt023.wav
+job0069,utt023,target_only,নকৰিলো,AgrYes_MixNo,নকৰিলো,,,{system}/target_only/utt023.wav
+job0070,utt024,orig,মই হাতকেৰেয়া বুলি ক'লো,AgrYes_MixNo,হাতকেৰেয়া,,,{system}/orig/utt024.wav
+job0071,utt024,no_apostrophe,মই হাতকেৰেয়া বুলি কলো,AgrYes_MixNo,হাতকেৰেয়া,,,{system}/no_apostrophe/utt024.wav
+job0072,utt024,target_only,হাতকেৰেয়া,AgrYes_MixNo,হাতকেৰেয়া,,,{system}/target_only/utt024.wav
+job0073,utt025,orig,মই গৰম বুলি ক'লো,AgrYes_MixNo,গৰম,,,{system}/orig/utt025.wav
+job0074,utt025,no_apostrophe,মই গৰম বুলি কলো,AgrYes_MixNo,গৰম,,,{system}/no_apostrophe/utt025.wav
+job0075,utt025,target_only,গৰম,AgrYes_MixNo,গৰম,,,{system}/target_only/utt025.wav
+job0076,utt026,orig,মই কৰবি বুলি ক'লো,AgrYes_MixNo,কৰবি,,,{system}/orig/utt026.wav
+job0077,utt026,no_apostrophe,মই কৰবি বুলি কলো,AgrYes_MixNo,কৰবি,,,{system}/no_apostrophe/utt026.wav
+job0078,utt026,target_only,কৰবি,AgrYes_MixNo,কৰবি,,,{system}/target_only/utt026.wav
+job0079,utt027,orig,মই গৰমত বুলি ক'লো,AgrYes_MixNo,গৰমত,,,{system}/orig/utt027.wav
+job0080,utt027,no_apostrophe,মই গৰমত বুলি কলো,AgrYes_MixNo,গৰমত,,,{system}/no_apostrophe/utt027.wav
+job0081,utt027,target_only,গৰমত,AgrYes_MixNo,গৰমত,,,{system}/target_only/utt027.wav
+job0082,utt028,orig,মই কবিতা বুলি ক'লো,AgrYes_MixNo,কবিতা,,,{system}/orig/utt028.wav
+job0083,utt028,no_apostrophe,মই কবিতা বুলি কলো,AgrYes_MixNo,কবিতা,,,{system}/no_apostrophe/utt028.wav
+job0084,utt028,target_only,কবিতা,AgrYes_MixNo,কবিতা,,,{system}/target_only/utt028.wav
+job0085,utt029,orig,মই পাপৰী বুলি ক'লো,AgrYes_MixYes,পাপৰী,,,{system}/orig/utt029.wav
+job0086,utt029,no_apostrophe,মই পাপৰী বুলি কলো,AgrYes_MixYes,পাপৰী,,,{system}/no_apostrophe/utt029.wav
+job0087,utt029,target_only,পাপৰী,AgrYes_MixYes,পাপৰী,,,{system}/target_only/utt029.wav
+job0088,utt030,orig,মই বদলি বুলি ক'লো,AgrYes_MixNo,বদলি,,,{system}/orig/utt030.wav
+job0089,utt030,no_apostrophe,মই বদলি বুলি কলো,AgrYes_MixNo,বদলি,,,{system}/no_apostrophe/utt030.wav
+job0090,utt030,target_only,বদলি,AgrYes_MixNo,বদলি,,,{system}/target_only/utt030.wav
+job0091,utt031,orig,মই বৰষুণ বুলি ক'লো,AgrYes_MixNo,বৰষুণ,,,{system}/orig/utt031.wav
+job0092,utt031,no_apostrophe,মই বৰষুণ বুলি কলো,AgrYes_MixNo,বৰষুণ,,,{system}/no_apostrophe/utt031.wav
+job0093,utt031,target_only,বৰষুণ,AgrYes_MixNo,বৰষুণ,,,{system}/target_only/utt031.wav
+job0094,utt032,orig,মই কৰিবলগীয়া বুলি ক'লো,AgrYes_MixNo,কৰিবলগীয়া,,,{system}/orig/utt032.wav
+job0095,utt032,no_apostrophe,মই কৰিবলগীয়া বুলি কলো,AgrYes_MixNo,কৰিবলগীয়া,,,{system}/no_apostrophe/utt032.wav
+job0096,utt032,target_only,কৰিবলগীয়া,AgrYes_MixNo,কৰিবলগীয়া,,,{system}/target_only/utt032.wav
+job0097,utt033,orig,মই প্রহৰী বুলি ক'লো,AgrYes_MixNo,প্রহৰী,,,{system}/orig/utt033.wav
+job0098,utt033,no_apostrophe,মই প্রহৰী বুলি কলো,AgrYes_MixNo,প্রহৰী,,,{system}/no_apostrophe/utt033.wav
+job0099,utt033,target_only,প্রহৰী,AgrYes_MixNo,প্রহৰী,,,{system}/target_only/utt033.wav
+job0100,utt034,orig,মই বগৰী বুলি ক'লো,AgrYes_MixNo,বগৰী,,,{system}/orig/utt034.wav
+job0101,utt034,no_apostrophe,মই বগৰী বুলি কলো,AgrYes_MixNo,বগৰী,,,{system}/no_apostrophe/utt034.wav
+job0102,utt034,target_only,বগৰী,AgrYes_MixNo,বগৰী,,,{system}/target_only/utt034.wav
+job0103,utt035,orig,মই আপদিয়া বুলি ক'লো,AgrYes_MixYes,আপদিয়া,,,{system}/orig/utt035.wav
+job0104,utt035,no_apostrophe,মই আপদিয়া বুলি কলো,AgrYes_MixYes,আপদিয়া,,,{system}/no_apostrophe/utt035.wav
+job0105,utt035,target_only,আপদিয়া,AgrYes_MixYes,আপদিয়া,,,{system}/target_only/utt035.wav
+job0106,utt036,orig,মই অশ্লীল বুলি ক'লো,AgrNo_MixYes,অশ্লীল,,,{system}/orig/utt036.wav
+job0107,utt036,no_apostrophe,মই অশ্লীল বুলি কলো,AgrNo_MixYes,অশ্লীল,,,{system}/no_apostrophe/utt036.wav
+job0108,utt036,target_only,অশ্লীল,AgrNo_MixYes,অশ্লীল,,,{system}/target_only/utt036.wav
+job0109,utt037,orig,মই সৰকি বুলি ক'লো,AgrYes_MixNo,সৰকি,,,{system}/orig/utt037.wav
+job0110,utt037,no_apostrophe,মই সৰকি বুলি কলো,AgrYes_MixNo,সৰকি,,,{system}/no_apostrophe/utt037.wav
+job0111,utt037,target_only,সৰকি,AgrYes_MixNo,সৰকি,,,{system}/target_only/utt037.wav
+job0112,utt038,orig,মই সোনাৰু বুলি ক'লো,AgrYes_MixNo,সোনাৰু,,,{system}/orig/utt038.wav
+job0113,utt038,no_apostrophe,মই সোনাৰু বুলি কলো,AgrYes_MixNo,সোনাৰু,,,{system}/no_apostrophe/utt038.wav
+job0114,utt038,target_only,সোনাৰু,AgrYes_MixNo,সোনাৰু,,,{system}/target_only/utt038.wav
+job0115,utt039,orig,মই জোনাক বুলি ক'লো,AgrYes_MixNo,জোনাক,,,{system}/orig/utt039.wav
+job0116,utt039,no_apostrophe,মই জোনাক বুলি কলো,AgrYes_MixNo,জোনাক,,,{system}/no_apostrophe/utt039.wav
+job0117,utt039,target_only,জোনাক,AgrYes_MixNo,জোনাক,,,{system}/target_only/utt039.wav
+job0118,utt040,orig,মই জোনাকি বুলি ক'লো,AgrYes_MixYes,জোনাকি,,,{system}/orig/utt040.wav
+job0119,utt040,no_apostrophe,মই জোনাকি বুলি কলো,AgrYes_MixYes,জোনাকি,,,{system}/no_apostrophe/utt040.wav
+job0120,utt040,target_only,জোনাকি,AgrYes_MixYes,জোনাকি,,,{system}/target_only/utt040.wav
+job0121,utt041,orig,মই পোহৰ বুলি ক'লো,AgrYes_MixNo,পোহৰ,,,{system}/orig/utt041.wav
+job0122,utt041,no_apostrophe,মই পোহৰ বুলি কলো,AgrYes_MixNo,পোহৰ,,,{system}/no_apostrophe/utt041.wav
+job0123,utt041,target_only,পোহৰ,AgrYes_MixNo,পোহৰ,,,{system}/target_only/utt041.wav
+job0124,utt042,orig,মই গোহালি বুলি ক'লো,AgrNo_MixYes,গোহালি,,,{system}/orig/utt042.wav
+job0125,utt042,no_apostrophe,মই গোহালি বুলি কলো,AgrNo_MixYes,গোহালি,,,{system}/no_apostrophe/utt042.wav
+job0126,utt042,target_only,গোহালি,AgrNo_MixYes,গোহালি,,,{system}/target_only/utt042.wav
+job0127,utt043,orig,মই গচকি বুলি ক'লো,AgrYes_MixNo,গচকি,,,{system}/orig/utt043.wav
+job0128,utt043,no_apostrophe,মই গচকি বুলি কলো,AgrYes_MixNo,গচকি,,,{system}/no_apostrophe/utt043.wav
+job0129,utt043,target_only,গচকি,AgrYes_MixNo,গচকি,,,{system}/target_only/utt043.wav
+job0130,utt044,orig,মই দিলে বুলি ক'লো,AgrYes_MixNo,দিলে,,,{system}/orig/utt044.wav
+job0131,utt044,no_apostrophe,মই দিলে বুলি কলো,AgrYes_MixNo,দিলে,,,{system}/no_apostrophe/utt044.wav
+job0132,utt044,target_only,দিলে,AgrYes_MixNo,দিলে,,,{system}/target_only/utt044.wav
+job0133,utt045,orig,মই দিলেই বুলি ক'লো,AgrYes_MixNo,দিলেই,,,{system}/orig/utt045.wav
+job0134,utt045,no_apostrophe,মই দিলেই বুলি কলো,AgrYes_MixNo,দিলেই,,,{system}/no_apostrophe/utt045.wav
+job0135,utt045,target_only,দিলেই,AgrYes_MixNo,দিলেই,,,{system}/target_only/utt045.wav
+job0136,utt046,orig,মই দিলেতো বুলি ক'লো,AgrNo_MixYes,দিলেতো,,,{system}/orig/utt046.wav
+job0137,utt046,no_apostrophe,মই দিলেতো বুলি কলো,AgrNo_MixYes,দিলেতো,,,{system}/no_apostrophe/utt046.wav
+job0138,utt046,target_only,দিলেতো,AgrNo_MixYes,দিলেতো,,,{system}/target_only/utt046.wav
+job0139,utt047,orig,মই দিলেনে বুলি ক'লো,AgrYes_MixNo,দিলেনে,,,{system}/orig/utt047.wav
+job0140,utt047,no_apostrophe,মই দিলেনে বুলি কলো,AgrYes_MixNo,দিলেনে,,,{system}/no_apostrophe/utt047.wav
+job0141,utt047,target_only,দিলেনে,AgrYes_MixNo,দিলেনে,,,{system}/target_only/utt047.wav
+job0142,utt048,orig,মই দিলো বুলি ক'লো,AgrYes_MixNo,দিলো,,,{system}/orig/utt048.wav
+job0143,utt048,no_apostrophe,মই দিলো বুলি কলো,AgrYes_MixNo,দিলো,,,{system}/no_apostrophe/utt048.wav
+job0144,utt048,target_only,দিলো,AgrYes_MixNo,দিলো,,,{system}/target_only/utt048.wav
+job0145,utt049,orig,মই দেখিছিলিনে বুলি ক'লো,AgrYes_MixNo,দেখিছিলিনে,,,{system}/orig/utt049.wav
+job0146,utt049,no_apostrophe,মই দেখিছিলিনে বুলি কলো,AgrYes_MixNo,দেখিছিলিনে,,,{system}/no_apostrophe/utt049.wav
+job0147,utt049,target_only,দেখিছিলিনে,AgrYes_MixNo,দেখিছিলিনে,,,{system}/target_only/utt049.wav
+job0148,utt050,orig,মই দেখিছিলো বুলি ক'লো,AgrYes_MixNo,দেখিছিলো,,,{system}/orig/utt050.wav
+job0149,utt050,no_apostrophe,মই দেখিছিলো বুলি কলো,AgrYes_MixNo,দেখিছিলো,,,{system}/no_apostrophe/utt050.wav
+job0150,utt050,target_only,দেখিছিলো,AgrYes_MixNo,দেখিছিলো,,,{system}/target_only/utt050.wav
+job0151,utt051,orig,মই দেখিছো বুলি ক'লো,AgrYes_MixNo,দেখিছো,,,{system}/orig/utt051.wav
+job0152,utt051,no_apostrophe,মই দেখিছো বুলি কলো,AgrYes_MixNo,দেখিছো,,,{system}/no_apostrophe/utt051.wav
+job0153,utt051,target_only,দেখিছো,AgrYes_MixNo,দেখিছো,,,{system}/target_only/utt051.wav
+job0154,utt052,orig,মই দেখিলে বুলি ক'লো,AgrYes_MixNo,দেখিলে,,,{system}/orig/utt052.wav
+job0155,utt052,no_apostrophe,মই দেখিলে বুলি কলো,AgrYes_MixNo,দেখিলে,,,{system}/no_apostrophe/utt052.wav
+job0156,utt052,target_only,দেখিলে,AgrYes_MixNo,দেখিলে,,,{system}/target_only/utt052.wav
+job0157,utt053,orig,মই একেডালে বুলি ক'লো,AgrYes_MixNo,একেডালে,,,{system}/orig/utt053.wav
+job0158,utt053,no_apostrophe,মই একেডালে বুলি কলো,AgrYes_MixNo,একেডালে,,,{system}/no_apostrophe/utt053.wav
+job0159,utt053,target_only,একেডালে,AgrYes_MixNo,একেডালে,,,{system}/target_only/utt053.wav
+job0160,utt054,orig,মই দেখিলো বুলি ক'লো,AgrYes_MixNo,দেখিলো,,,{system}/orig/utt054.wav
+job0161,utt054,no_apostrophe,মই দেখিলো বুলি কলো,AgrYes_MixNo,দেখিলো,,,{system}/no_apostrophe/utt054.wav
+job0162,utt054,target_only,দেখিলো,AgrYes_MixNo,দেখিলো,,,{system}/target_only/utt054.wav
+job0163,utt055,orig,মই একেবাৰে বুলি ক'লো,AgrYes_MixNo,একেবাৰে,,,{system}/orig/utt055.wav
+job0164,utt055,no_apostrophe,মই একেবাৰে বুলি কলো,AgrYes_MixNo,একেবাৰে,,,{system}/no_apostrophe/utt055.wav
+job0165,utt055,target_only,একেবাৰে,AgrYes_MixNo,একেবাৰে,,,{system}/target_only/utt055.wav
+job0166,utt057,orig,মই দেখিয়েই বুলি ক'লো,AgrYes_MixNo,দেখিয়েই,,,{system}/orig/utt057.wav
+job0167,utt057,no_apostrophe,মই দেখিয়েই বুলি কলো,AgrYes_MixNo,দেখিয়েই,,,{system}/no_apostrophe/utt057.wav
+job0168,utt057,target_only,দেখিয়েই,AgrYes_MixNo,দেখিয়েই,,,{system}/target_only/utt057.wav
+job0169,utt058,orig,মই দেখুৱাবলৈ বুলি ক'লো,AgrYes_MixNo,দেখুৱাবলৈ,,,{system}/orig/utt058.wav
+job0170,utt058,no_apostrophe,মই দেখুৱাবলৈ বুলি কলো,AgrYes_MixNo,দেখুৱাবলৈ,,,{system}/no_apostrophe/utt058.wav
+job0171,utt058,target_only,দেখুৱাবলৈ,AgrYes_MixNo,দেখুৱাবলৈ,,,{system}/target_only/utt058.wav
+job0172,utt059,orig,মই পালো বুলি ক'লো,AgrYes_MixNo,পালো,,,{system}/orig/utt059.wav
+job0173,utt059,no_apostrophe,মই পালো বুলি কলো,AgrYes_MixNo,পালো,,,{system}/no_apostrophe/utt059.wav
+job0174,utt059,target_only,পালো,AgrYes_MixNo,পালো,,,{system}/target_only/utt059.wav
+job0175,utt060,orig,মই পাহৰি বুলি ক'লো,AgrYes_MixYes,পাহৰি,,,{system}/orig/utt060.wav
+job0176,utt060,no_apostrophe,মই পাহৰি বুলি কলো,AgrYes_MixYes,পাহৰি,,,{system}/no_apostrophe/utt060.wav
+job0177,utt060,target_only,পাহৰি,AgrYes_MixYes,পাহৰি,,,{system}/target_only/utt060.wav
+job0178,utt062,orig,মই পালেনে বুলি ক'লো,AgrYes_MixNo,পালেনে,,,{system}/orig/utt062.wav
+job0179,utt062,no_apostrophe,মই পালেনে বুলি কলো,AgrYes_MixNo,পালেনে,,,{system}/no_apostrophe/utt062.wav
+job0180,utt062,target_only,পালেনে,AgrYes_MixNo,পালেনে,,,{system}/target_only/utt062.wav
+job0181,utt063,orig,মই বেচেৰী বুলি ক'লো,AgrYes_MixNo,বেচেৰী,,,{system}/orig/utt063.wav
+job0182,utt063,no_apostrophe,মই বেচেৰী বুলি কলো,AgrYes_MixNo,বেচেৰী,,,{system}/no_apostrophe/utt063.wav
+job0183,utt063,target_only,বেচেৰী,AgrYes_MixNo,বেচেৰী,,,{system}/target_only/utt063.wav
+job0184,utt064,orig,মই ফেদেলি বুলি ক'লো,AgrYes_MixNo,ফেদেলি,,,{system}/orig/utt064.wav
+job0185,utt064,no_apostrophe,মই ফেদেলি বুলি কলো,AgrYes_MixNo,ফেদেলি,,,{system}/no_apostrophe/utt064.wav
+job0186,utt064,target_only,ফেদেলি,AgrYes_MixNo,ফেদেলি,,,{system}/target_only/utt064.wav
+job0187,utt065,orig,মই পেটেলি বুলি ক'লো,AgrYes_MixNo,পেটেলি,,,{system}/orig/utt065.wav
+job0188,utt065,no_apostrophe,মই পেটেলি বুলি কলো,AgrYes_MixNo,পেটেলি,,,{system}/no_apostrophe/utt065.wav
+job0189,utt065,target_only,পেটেলি,AgrYes_MixNo,পেটেলি,,,{system}/target_only/utt065.wav
+job0190,utt066,orig,মই চেদেলি ভেদেলি বুলি ক'লো,AgrYes_MixNo,চেদেলি ভেদেলি,,,{system}/orig/utt066.wav
+job0191,utt066,no_apostrophe,মই চেদেলি ভেদেলি বুলি কলো,AgrYes_MixNo,চেদেলি ভেদেলি,,,{system}/no_apostrophe/utt066.wav
+job0192,utt066,target_only,চেদেলি ভেদেলি,AgrYes_MixNo,চেদেলি ভেদেলি,,,{system}/target_only/utt066.wav
+job0193,utt067,orig,মই লেটেকু বুলি ক'লো,AgrYes_MixNo,লেটেকু,,,{system}/orig/utt067.wav
+job0194,utt067,no_apostrophe,মই লেটেকু বুলি কলো,AgrYes_MixNo,লেটেকু,,,{system}/no_apostrophe/utt067.wav
+job0195,utt067,target_only,লেটেকু,AgrYes_MixNo,লেটেকু,,,{system}/target_only/utt067.wav
+job0196,utt068,orig,মই মেলেৰিয়া বুলি ক'লো,AgrYes_MixYes,মেলেৰিয়া,,,{system}/orig/utt068.wav
+job0197,utt068,no_apostrophe,মই মেলেৰিয়া বুলি কলো,AgrYes_MixYes,মেলেৰিয়া,,,{system}/no_apostrophe/utt068.wav
+job0198,utt068,target_only,মেলেৰিয়া,AgrYes_MixYes,মেলেৰিয়া,,,{system}/target_only/utt068.wav
+job0199,utt069,orig,মই চেঙেলীয়া বুলি ক'লো,AgrYes_MixYes,চেঙেলীয়া,,,{system}/orig/utt069.wav
+job0200,utt069,no_apostrophe,মই চেঙেলীয়া বুলি কলো,AgrYes_MixYes,চেঙেলীয়া,,,{system}/no_apostrophe/utt069.wav
+job0201,utt069,target_only,চেঙেলীয়া,AgrYes_MixYes,চেঙেলীয়া,,,{system}/target_only/utt069.wav
+job0202,utt070,orig,মই পদবি বুলি ক'লো,AgrYes_MixNo,পদবি,,,{system}/orig/utt070.wav
+job0203,utt070,no_apostrophe,মই পদবি বুলি কলো,AgrYes_MixNo,পদবি,,,{system}/no_apostrophe/utt070.wav
+job0204,utt070,target_only,পদবি,AgrYes_MixNo,পদবি,,,{system}/target_only/utt070.wav
+job0205,utt071,orig,মই আলসুৱা বুলি ক'লো,AgrYes_MixYes,আলসুৱা,,,{system}/orig/utt071.wav
+job0206,utt071,no_apostrophe,মই আলসুৱা বুলি কলো,AgrYes_MixYes,আলসুৱা,,,{system}/no_apostrophe/utt071.wav
+job0207,utt071,target_only,আলসুৱা,AgrYes_MixYes,আলসুৱা,,,{system}/target_only/utt071.wav
+job0208,utt072,orig,মই অলস বুলি ক'লো,AgrYes_MixNo,অলস,,,{system}/orig/utt072.wav
+job0209,utt072,no_apostrophe,মই অলস বুলি কলো,AgrYes_MixNo,অলস,,,{system}/no_apostrophe/utt072.wav
+job0210,utt072,target_only,অলস,AgrYes_MixNo,অলস,,,{system}/target_only/utt072.wav
+job0211,utt073,orig,মই আলাশ বুলি ক'লো,AgrYes_MixNo,আলাশ,,,{system}/orig/utt073.wav
+job0212,utt073,no_apostrophe,মই আলাশ বুলি কলো,AgrYes_MixNo,আলাশ,,,{system}/no_apostrophe/utt073.wav
+job0213,utt073,target_only,আলাশ,AgrYes_MixNo,আলাশ,,,{system}/target_only/utt073.wav
+job0214,utt074,orig,মই এলাহ বুলি ক'লো,AgrYes_MixNo,এলাহ,,,{system}/orig/utt074.wav
+job0215,utt074,no_apostrophe,মই এলাহ বুলি কলো,AgrYes_MixNo,এলাহ,,,{system}/no_apostrophe/utt074.wav
+job0216,utt074,target_only,এলাহ,AgrYes_MixNo,এলাহ,,,{system}/target_only/utt074.wav
+job0217,utt075,orig,মই এলেহুৱা বুলি ক'লো,AgrYes_MixNo,এলেহুৱা,,,{system}/orig/utt075.wav
+job0218,utt075,no_apostrophe,মই এলেহুৱা বুলি কলো,AgrYes_MixNo,এলেহুৱা,,,{system}/no_apostrophe/utt075.wav
+job0219,utt075,target_only,এলেহুৱা,AgrYes_MixNo,এলেহুৱা,,,{system}/target_only/utt075.wav
+job0220,utt076,orig,মই পলস বুলি ক'লো,AgrYes_MixNo,পলস,,,{system}/orig/utt076.wav
+job0221,utt076,no_apostrophe,মই পলস বুলি কলো,AgrYes_MixNo,পলস,,,{system}/no_apostrophe/utt076.wav
+job0222,utt076,target_only,পলস,AgrYes_MixNo,পলস,,,{system}/target_only/utt076.wav
+job0223,utt077,orig,মই পলসুৱা বুলি ক'লো,AgrYes_MixYes,পলসুৱা,,,{system}/orig/utt077.wav
+job0224,utt077,no_apostrophe,মই পলসুৱা বুলি কলো,AgrYes_MixYes,পলসুৱা,,,{system}/no_apostrophe/utt077.wav
+job0225,utt077,target_only,পলসুৱা,AgrYes_MixYes,পলসুৱা,,,{system}/target_only/utt077.wav
+job0226,utt078,orig,মই পলৰীয়া বুলি ক'লো,AgrYes_MixYes,পলৰীয়া,,,{system}/orig/utt078.wav
+job0227,utt078,no_apostrophe,মই পলৰীয়া বুলি কলো,AgrYes_MixYes,পলৰীয়া,,,{system}/no_apostrophe/utt078.wav
+job0228,utt078,target_only,পলৰীয়া,AgrYes_MixYes,পলৰীয়া,,,{system}/target_only/utt078.wav
+job0229,utt079,orig,মই ধেমালি বুলি ক'লো,AgrNo_MixYes,ধেমালি,,,{system}/orig/utt079.wav
+job0230,utt079,no_apostrophe,মই ধেমালি বুলি কলো,AgrNo_MixYes,ধেমালি,,,{system}/no_apostrophe/utt079.wav
+job0231,utt079,target_only,ধেমালি,AgrNo_MixYes,ধেমালি,,,{system}/target_only/utt079.wav
+job0232,utt080,orig,মই ভেকুলা বুলি কলো,AgrYes_MixYes,ভেকুলা,,,{system}/orig/utt080.wav
+job0233,utt080,no_apostrophe,মই ভেকুলা বুলি কলো,AgrYes_MixYes,ভেকুলা,,,{system}/no_apostrophe/utt080.wav
+job0234,utt080,target_only,ভেকুলা,AgrYes_MixYes,ভেকুলা,,,{system}/target_only/utt080.wav
+job0235,utt081,orig,মই ভেকুলি বুলি কলো,AgrYes_MixNo,ভেকুলি,,,{system}/orig/utt081.wav
+job0236,utt081,no_apostrophe,মই ভেকুলি বুলি কলো,AgrYes_MixNo,ভেকুলি,,,{system}/no_apostrophe/utt081.wav
+job0237,utt081,target_only,ভেকুলি,AgrYes_MixNo,ভেকুলি,,,{system}/target_only/utt081.wav
+job0238,utt082,orig,মই খৰচ বুলি কলো,AgrYes_MixNo,খৰচ,,,{system}/orig/utt082.wav
+job0239,utt082,no_apostrophe,মই খৰচ বুলি কলো,AgrYes_MixNo,খৰচ,,,{system}/no_apostrophe/utt082.wav
+job0240,utt082,target_only,খৰচ,AgrYes_MixNo,খৰচ,,,{system}/target_only/utt082.wav
+job0241,utt083,orig,মই খোৰচি বুলি কলো,AgrYes_MixNo,খোৰচি,,,{system}/orig/utt083.wav
+job0242,utt083,no_apostrophe,মই খোৰচি বুলি কলো,AgrYes_MixNo,খোৰচি,,,{system}/no_apostrophe/utt083.wav
+job0243,utt083,target_only,খোৰচি,AgrYes_MixNo,খোৰচি,,,{system}/target_only/utt083.wav
+job0244,utt084,orig,মই মেৰ বুলি কলো,AgrYes_MixNo,মেৰ,,,{system}/orig/utt084.wav
+job0245,utt084,no_apostrophe,মই মেৰ বুলি কলো,AgrYes_MixNo,মেৰ,,,{system}/no_apostrophe/utt084.wav
+job0246,utt084,target_only,মেৰ,AgrYes_MixNo,মেৰ,,,{system}/target_only/utt084.wav
+job0247,utt085,orig,মই মেৰুৱা বুলি কলো,AgrYes_MixNo,মেৰুৱা,,,{system}/orig/utt085.wav
+job0248,utt085,no_apostrophe,মই মেৰুৱা বুলি কলো,AgrYes_MixNo,মেৰুৱা,,,{system}/no_apostrophe/utt085.wav
+job0249,utt085,target_only,মেৰুৱা,AgrYes_MixNo,মেৰুৱা,,,{system}/target_only/utt085.wav
+job0250,utt086,orig,মই গুবৰ বুলি কলো,AgrYes_MixYes,গুবৰ,,,{system}/orig/utt086.wav
+job0251,utt086,no_apostrophe,মই গুবৰ বুলি কলো,AgrYes_MixYes,গুবৰ,,,{system}/no_apostrophe/utt086.wav
+job0252,utt086,target_only,গুবৰ,AgrYes_MixYes,গুবৰ,,,{system}/target_only/utt086.wav
+job0253,utt087,orig,মই গুবোৰুৱা বুলি কলো,AgrYes_MixNo,গুবোৰুৱা,,,{system}/orig/utt087.wav
+job0254,utt087,no_apostrophe,মই গুবোৰুৱা বুলি কলো,AgrYes_MixNo,গুবোৰুৱা,,,{system}/no_apostrophe/utt087.wav
+job0255,utt087,target_only,গুবোৰুৱা,AgrYes_MixNo,গুবোৰুৱা,,,{system}/target_only/utt087.wav
+job0256,utt088,orig,মই বস বুলি কলো,AgrYes_MixNo,বস,,,{system}/orig/utt088.wav
+job0257,utt088,no_apostrophe,মই বস বুলি কলো,AgrYes_MixNo,বস,,,{system}/no_apostrophe/utt088.wav
+job0258,utt088,target_only,বস,AgrYes_MixNo,বস,,,{system}/target_only/utt088.wav
+job0259,utt089,orig,মই বোসোতি বুলি কলো,AgrYes_MixNo,বোসোতি,,,{system}/orig/utt089.wav
+job0260,utt089,no_apostrophe,মই বোসোতি বুলি কলো,AgrYes_MixNo,বোসোতি,,,{system}/no_apostrophe/utt089.wav
+job0261,utt089,target_only,বোসোতি,AgrYes_MixNo,বোসোতি,,,{system}/target_only/utt089.wav
+job0262,utt090,orig,মই পাগল বুলি কলো,AgrYes_MixNo,পাগল,,,{system}/orig/utt090.wav
+job0263,utt090,no_apostrophe,মই পাগল বুলি কলো,AgrYes_MixNo,পাগল,,,{system}/no_apostrophe/utt090.wav
+job0264,utt090,target_only,পাগল,AgrYes_MixNo,পাগল,,,{system}/target_only/utt090.wav
+job0265,utt091,orig,মই পাগলি বুলি কলো,AgrYes_MixNo,পাগলি,,,{system}/orig/utt091.wav
+job0266,utt091,no_apostrophe,মই পাগলি বুলি কলো,AgrYes_MixNo,পাগলি,,,{system}/no_apostrophe/utt091.wav
+job0267,utt091,target_only,পাগলি,AgrYes_MixNo,পাগলি,,,{system}/target_only/utt091.wav
+job0268,utt092,orig,মই গুল বুলি কলো,AgrYes_MixYes,গুল,,,{system}/orig/utt092.wav
+job0269,utt092,no_apostrophe,মই গুল বুলি কলো,AgrYes_MixYes,গুল,,,{system}/no_apostrophe/utt092.wav
+job0270,utt092,target_only,গুল,AgrYes_MixYes,গুল,,,{system}/target_only/utt092.wav
+job0271,utt093,orig,মই গুলি বুলি কলো,AgrYes_MixNo,গুলি,,,{system}/orig/utt093.wav
+job0272,utt093,no_apostrophe,মই গুলি বুলি কলো,AgrYes_MixNo,গুলি,,,{system}/no_apostrophe/utt093.wav
+job0273,utt093,target_only,গুলি,AgrYes_MixNo,গুলি,,,{system}/target_only/utt093.wav
+job0274,utt094,orig,মই মৰ বুলি কলো,AgrYes_MixNo,মৰ,,,{system}/orig/utt094.wav
+job0275,utt094,no_apostrophe,মই মৰ বুলি কলো,AgrYes_MixNo,মৰ,,,{system}/no_apostrophe/utt094.wav
+job0276,utt094,target_only,মৰ,AgrYes_MixNo,মৰ,,,{system}/target_only/utt094.wav
+job0277,utt095,orig,মই মোৰোতি বুলি কলো,AgrYes_MixNo,মোৰোতি,,,{system}/orig/utt095.wav
+job0278,utt095,no_apostrophe,মই মোৰোতি বুলি কলো,AgrYes_MixNo,মোৰোতি,,,{system}/no_apostrophe/utt095.wav
+job0279,utt095,target_only,মোৰোতি,AgrYes_MixNo,মোৰোতি,,,{system}/target_only/utt095.wav
+job0280,utt096,orig,মই সেহ বুলি কলো,AgrYes_MixNo,সেহ,,,{system}/orig/utt096.wav
+job0281,utt096,no_apostrophe,মই সেহ বুলি কলো,AgrYes_MixNo,সেহ,,,{system}/no_apostrophe/utt096.wav
+job0282,utt096,target_only,সেহ,AgrYes_MixNo,সেহ,,,{system}/target_only/utt096.wav
+job0283,utt097,orig,মই সেহতিয়া বুলি কলো,AgrYes_MixNo,সেহতিয়া,,,{system}/orig/utt097.wav
+job0284,utt097,no_apostrophe,মই সেহতিয়া বুলি কলো,AgrYes_MixNo,সেহতিয়া,,,{system}/no_apostrophe/utt097.wav
+job0285,utt097,target_only,সেহতিয়া,AgrYes_MixNo,সেহতিয়া,,,{system}/target_only/utt097.wav
+job0286,utt098,orig,মই লেখ বুলি কলো,AgrYes_MixYes,লেখ,,,{system}/orig/utt098.wav
+job0287,utt098,no_apostrophe,মই লেখ বুলি কলো,AgrYes_MixYes,লেখ,,,{system}/no_apostrophe/utt098.wav
+job0288,utt098,target_only,লেখ,AgrYes_MixYes,লেখ,,,{system}/target_only/utt098.wav
+job0289,utt099,orig,মই লেখিকা বুলি কলো,AgrYes_MixNo,লেখিকা,,,{system}/orig/utt099.wav
+job0290,utt099,no_apostrophe,মই লেখিকা বুলি কলো,AgrYes_MixNo,লেখিকা,,,{system}/no_apostrophe/utt099.wav
+job0291,utt099,target_only,লেখিকা,AgrYes_MixNo,লেখিকা,,,{system}/target_only/utt099.wav
+job0292,utt100,orig,মই ধুল বুলি কলো,AgrYes_MixYes,ধুল,,,{system}/orig/utt100.wav
+job0293,utt100,no_apostrophe,মই ধুল বুলি কলো,AgrYes_MixYes,ধুল,,,{system}/no_apostrophe/utt100.wav
+job0294,utt100,target_only,ধুল,AgrYes_MixYes,ধুল,,,{system}/target_only/utt100.wav
+job0295,utt101,orig,মই ধুলিয়া বুলি কলো,AgrYes_MixNo,ধুলিয়া,,,{system}/orig/utt101.wav
+job0296,utt101,no_apostrophe,মই ধুলিয়া বুলি কলো,AgrYes_MixNo,ধুলিয়া,,,{system}/no_apostrophe/utt101.wav
+job0297,utt101,target_only,ধুলিয়া,AgrYes_MixNo,ধুলিয়া,,,{system}/target_only/utt101.wav
+job0298,utt102,orig,মই পেট বুলি কলো,AgrYes_MixYes,পেট,,,{system}/orig/utt102.wav
+job0299,utt102,no_apostrophe,মই পেট বুলি কলো,AgrYes_MixYes,পেট,,,{system}/no_apostrophe/utt102.wav
+job0300,utt102,target_only,পেট,AgrYes_MixYes,পেট,,,{system}/target_only/utt102.wav
+job0301,utt103,orig,মই পেটু বুলি কলো,AgrYes_MixNo,পেটু,,,{system}/orig/utt103.wav
+job0302,utt103,no_apostrophe,মই পেটু বুলি কলো,AgrYes_MixNo,পেটু,,,{system}/no_apostrophe/utt103.wav
+job0303,utt103,target_only,পেটু,AgrYes_MixNo,পেটু,,,{system}/target_only/utt103.wav
+job0304,utt104,orig,মই ৰঙ বুলি কলো,AgrYes_MixNo,ৰঙ,,,{system}/orig/utt104.wav
+job0305,utt104,no_apostrophe,মই ৰঙ বুলি কলো,AgrYes_MixNo,ৰঙ,,,{system}/no_apostrophe/utt104.wav
+job0306,utt104,target_only,ৰঙ,AgrYes_MixNo,ৰঙ,,,{system}/target_only/utt104.wav
+job0307,utt105,orig,মই ৰঙসুৱা বুলি কলো,AgrYes_MixNo,ৰঙসুৱা,,,{system}/orig/utt105.wav
+job0308,utt105,no_apostrophe,মই ৰঙসুৱা বুলি কলো,AgrYes_MixNo,ৰঙসুৱা,,,{system}/no_apostrophe/utt105.wav
+job0309,utt105,target_only,ৰঙসুৱা,AgrYes_MixNo,ৰঙসুৱা,,,{system}/target_only/utt105.wav
+job0310,utt106,orig,মই কৰ বুলি কলো,AgrYes_MixYes,কৰ,,,{system}/orig/utt106.wav
+job0311,utt106,no_apostrophe,মই কৰ বুলি কলো,AgrYes_MixYes,কৰ,,,{system}/no_apostrophe/utt106.wav
+job0312,utt106,target_only,কৰ,AgrYes_MixYes,কৰ,,,{system}/target_only/utt106.wav
+job0313,utt107,orig,মই কৰি বুলি কলো,AgrYes_MixNo,কৰি,,,{system}/orig/utt107.wav
+job0314,utt107,no_apostrophe,মই কৰি বুলি কলো,AgrYes_MixNo,কৰি,,,{system}/no_apostrophe/utt107.wav
+job0315,utt107,target_only,কৰি,AgrYes_MixNo,কৰি,,,{system}/target_only/utt107.wav
+job0316,utt108,orig,মই বছৰ বুলি কলো,AgrYes_MixNo,বছৰ,,,{system}/orig/utt108.wav
+job0317,utt108,no_apostrophe,মই বছৰ বুলি কলো,AgrYes_MixNo,বছৰ,,,{system}/no_apostrophe/utt108.wav
+job0318,utt108,target_only,বছৰ,AgrYes_MixNo,বছৰ,,,{system}/target_only/utt108.wav
+job0319,utt109,orig,মই বছৰি বুলি কলো,AgrYes_MixNo,বছৰি,,,{system}/orig/utt109.wav
+job0320,utt109,no_apostrophe,মই বছৰি বুলি কলো,AgrYes_MixNo,বছৰি,,,{system}/no_apostrophe/utt109.wav
+job0321,utt109,target_only,বছৰি,AgrYes_MixNo,বছৰি,,,{system}/target_only/utt109.wav
+job0322,utt110,orig,মই ভকত বুলি কলো,AgrYes_MixNo,ভকত,,,{system}/orig/utt110.wav
+job0323,utt110,no_apostrophe,মই ভকত বুলি কলো,AgrYes_MixNo,ভকত,,,{system}/no_apostrophe/utt110.wav
+job0324,utt110,target_only,ভকত,AgrYes_MixNo,ভকত,,,{system}/target_only/utt110.wav
+job0325,utt111,orig,মই ভোকতি বুলি কলো,AgrYes_MixNo,ভোকতি,,,{system}/orig/utt111.wav
+job0326,utt111,no_apostrophe,মই ভোকতি বুলি কলো,AgrYes_MixNo,ভোকতি,,,{system}/no_apostrophe/utt111.wav
+job0327,utt111,target_only,ভোকতি,AgrYes_MixNo,ভোকতি,,,{system}/target_only/utt111.wav
+job0328,utt112,orig,মই ফেদেলা বুলি কলো,AgrYes_MixNo,ফেদেলা,,,{system}/orig/utt112.wav
+job0329,utt112,no_apostrophe,মই ফেদেলা বুলি কলো,AgrYes_MixNo,ফেদেলা,,,{system}/no_apostrophe/utt112.wav
+job0330,utt112,target_only,ফেদেলা,AgrYes_MixNo,ফেদেলা,,,{system}/target_only/utt112.wav
+job0331,utt113,orig,মই ফেদেলি বুলি কলো,AgrYes_MixNo,ফেদেলি,,,{system}/orig/utt113.wav
+job0332,utt113,no_apostrophe,মই ফেদেলি বুলি কলো,AgrYes_MixNo,ফেদেলি,,,{system}/no_apostrophe/utt113.wav
+job0333,utt113,target_only,ফেদেলি,AgrYes_MixNo,ফেদেলি,,,{system}/target_only/utt113.wav
+job0334,utt114,orig,মই গেৰেলা বুলি কলো,AgrYes_MixNo,গেৰেলা,,,{system}/orig/utt114.wav
+job0335,utt114,no_apostrophe,মই গেৰেলা বুলি কলো,AgrYes_MixNo,গেৰেলা,,,{system}/no_apostrophe/utt114.wav
+job0336,utt114,target_only,গেৰেলা,AgrYes_MixNo,গেৰেলা,,,{system}/target_only/utt114.wav
+job0337,utt115,orig,মই গেৰেলি বুলি কলো,AgrYes_MixNo,গেৰেলি,,,{system}/orig/utt115.wav
+job0338,utt115,no_apostrophe,মই গেৰেলি বুলি কলো,AgrYes_MixNo,গেৰেলি,,,{system}/no_apostrophe/utt115.wav
+job0339,utt115,target_only,গেৰেলি,AgrYes_MixNo,গেৰেলি,,,{system}/target_only/utt115.wav
+job0340,utt116,orig,মই থুপুকা বুলি কলো,AgrYes_MixNo,থুপুকা,,,{system}/orig/utt116.wav
+job0341,utt116,no_apostrophe,মই থুপুকা বুলি কলো,AgrYes_MixNo,থুপুকা,,,{system}/no_apostrophe/utt116.wav
+job0342,utt116,target_only,থুপুকা,AgrYes_MixNo,থুপুকা,,,{system}/target_only/utt116.wav
+job0343,utt117,orig,মই থুপুকি বুলি কলো,AgrYes_MixNo,থুপুকি,,,{system}/orig/utt117.wav
+job0344,utt117,no_apostrophe,মই থুপুকি বুলি কলো,AgrYes_MixNo,থুপুকি,,,{system}/no_apostrophe/utt117.wav
+job0345,utt117,target_only,থুপুকি,AgrYes_MixNo,থুপুকি,,,{system}/target_only/utt117.wav
+job0346,utt118,orig,মই বুটলা বুলি কলো,AgrYes_MixNo,বুটলা,,,{system}/orig/utt118.wav
+job0347,utt118,no_apostrophe,মই বুটলা বুলি কলো,AgrYes_MixNo,বুটলা,,,{system}/no_apostrophe/utt118.wav
+job0348,utt118,target_only,বুটলা,AgrYes_MixNo,বুটলা,,,{system}/target_only/utt118.wav
+job0349,utt119,orig,মই বুটোলি বুলি কলো,AgrYes_MixNo,বুটোলি,,,{system}/orig/utt119.wav
+job0350,utt119,no_apostrophe,মই বুটোলি বুলি কলো,AgrYes_MixNo,বুটোলি,,,{system}/no_apostrophe/utt119.wav
+job0351,utt119,target_only,বুটোলি,AgrYes_MixNo,বুটোলি,,,{system}/target_only/utt119.wav
+job0352,utt120,orig,মই উটলা বুলি কলো,AgrYes_MixNo,উটলা,,,{system}/orig/utt120.wav
+job0353,utt120,no_apostrophe,মই উটলা বুলি কলো,AgrYes_MixNo,উটলা,,,{system}/no_apostrophe/utt120.wav
+job0354,utt120,target_only,উটলা,AgrYes_MixNo,উটলা,,,{system}/target_only/utt120.wav
+job0355,utt121,orig,মই উটোলি বুলি কলো,AgrYes_MixYes,উটোলি,,,{system}/orig/utt121.wav
+job0356,utt121,no_apostrophe,মই উটোলি বুলি কলো,AgrYes_MixYes,উটোলি,,,{system}/no_apostrophe/utt121.wav
+job0357,utt121,target_only,উটোলি,AgrYes_MixYes,উটোলি,,,{system}/target_only/utt121.wav
+job0358,utt122,orig,মই পিছল বুলি কলো,AgrYes_MixNo,পিছল,,,{system}/orig/utt122.wav
+job0359,utt122,no_apostrophe,মই পিছল বুলি কলো,AgrYes_MixNo,পিছল,,,{system}/no_apostrophe/utt122.wav
+job0360,utt122,target_only,পিছল,AgrYes_MixNo,পিছল,,,{system}/target_only/utt122.wav
+job0361,utt123,orig,মই পিছলি বুলি কলো,AgrYes_MixNo,পিছলি,,,{system}/orig/utt123.wav
+job0362,utt123,no_apostrophe,মই পিছলি বুলি কলো,AgrYes_MixNo,পিছলি,,,{system}/no_apostrophe/utt123.wav
+job0363,utt123,target_only,পিছলি,AgrYes_MixNo,পিছলি,,,{system}/target_only/utt123.wav
+job0364,utt124,orig,মই ভুত বুলি কলো,AgrYes_MixNo,ভুত,,,{system}/orig/utt124.wav
+job0365,utt124,no_apostrophe,মই ভুত বুলি কলো,AgrYes_MixNo,ভুত,,,{system}/no_apostrophe/utt124.wav
+job0366,utt124,target_only,ভুত,AgrYes_MixNo,ভুত,,,{system}/target_only/utt124.wav
+job0367,utt125,orig,মই ভুতে বুলি কলো,AgrYes_MixNo,ভুতে,,,{system}/orig/utt125.wav
+job0368,utt125,no_apostrophe,মই ভুতে বুলি কলো,AgrYes_MixNo,ভুতে,,,{system}/no_apostrophe/utt125.wav
+job0369,utt125,target_only,ভুতে,AgrYes_MixNo,ভুতে,,,{system}/target_only/utt125.wav
+job0370,utt126,orig,মই বেলেগ বুলি কলো,AgrYes_MixNo,বেলেগ,,,{system}/orig/utt126.wav
+job0371,utt126,no_apostrophe,মই বেলেগ বুলি কলো,AgrYes_MixNo,বেলেগ,,,{system}/no_apostrophe/utt126.wav
+job0372,utt126,target_only,বেলেগ,AgrYes_MixNo,বেলেগ,,,{system}/target_only/utt126.wav
+job0373,utt127,orig,মই বেলেগে বুলি কলো,AgrYes_MixNo,বেলেগে,,,{system}/orig/utt127.wav
+job0374,utt127,no_apostrophe,মই বেলেগে বুলি কলো,AgrYes_MixNo,বেলেগে,,,{system}/no_apostrophe/utt127.wav
+job0375,utt127,target_only,বেলেগে,AgrYes_MixNo,বেলেগে,,,{system}/target_only/utt127.wav
+job0376,utt128,orig,মই পছেক বুলি কলো,AgrYes_MixNo,পছেক,,,{system}/orig/utt128.wav
+job0377,utt128,no_apostrophe,মই পছেক বুলি কলো,AgrYes_MixNo,পছেক,,,{system}/no_apostrophe/utt128.wav
+job0378,utt128,target_only,পছেক,AgrYes_MixNo,পছেক,,,{system}/target_only/utt128.wav
+job0379,utt129,orig,মই পছেকত বুলি কলো,AgrYes_MixNo,পছেকত,,,{system}/orig/utt129.wav
+job0380,utt129,no_apostrophe,মই পছেকত বুলি কলো,AgrYes_MixNo,পছেকত,,,{system}/no_apostrophe/utt129.wav
+job0381,utt129,target_only,পছেকত,AgrYes_MixNo,পছেকত,,,{system}/target_only/utt129.wav
+job0382,utt130,orig,মই ফুৰ বুলি কলো,AgrYes_MixNo,ফুৰ,,,{system}/orig/utt130.wav
+job0383,utt130,no_apostrophe,মই ফুৰ বুলি কলো,AgrYes_MixNo,ফুৰ,,,{system}/no_apostrophe/utt130.wav
+job0384,utt130,target_only,ফুৰ,AgrYes_MixNo,ফুৰ,,,{system}/target_only/utt130.wav
+job0385,utt131,orig,মই ফুরু বুলি কলো,AgrYes_MixNo,ফুরু,,,{system}/orig/utt131.wav
+job0386,utt131,no_apostrophe,মই ফুরু বুলি কলো,AgrYes_MixNo,ফুরু,,,{system}/no_apostrophe/utt131.wav
+job0387,utt131,target_only,ফুরু,AgrYes_MixNo,ফুরু,,,{system}/target_only/utt131.wav
+job0388,utt132,orig,মই কিন বুলি কলো,AgrYes_MixNo,কিন,,,{system}/orig/utt132.wav
+job0389,utt132,no_apostrophe,মই কিন বুলি কলো,AgrYes_MixNo,কিন,,,{system}/no_apostrophe/utt132.wav
+job0390,utt132,target_only,কিন,AgrYes_MixNo,কিন,,,{system}/target_only/utt132.wav
+job0391,utt133,orig,মই কিনে বুলি কলো,AgrYes_MixNo,কিনে,,,{system}/orig/utt133.wav
+job0392,utt133,no_apostrophe,মই কিনে বুলি কলো,AgrYes_MixNo,কিনে,,,{system}/no_apostrophe/utt133.wav
+job0393,utt133,target_only,কিনে,AgrYes_MixNo,কিনে,,,{system}/target_only/utt133.wav
+job0394,utt134,orig,মই বুজ বুলি কলো,AgrYes_MixNo,বুজ,,,{system}/orig/utt134.wav
+job0395,utt134,no_apostrophe,মই বুজ বুলি কলো,AgrYes_MixNo,বুজ,,,{system}/no_apostrophe/utt134.wav
+job0396,utt134,target_only,বুজ,AgrYes_MixNo,বুজ,,,{system}/target_only/utt134.wav
+job0397,utt135,orig,মই বুজো বুলি কলো,AgrYes_MixNo,বুজো,,,{system}/orig/utt135.wav
+job0398,utt135,no_apostrophe,মই বুজো বুলি কলো,AgrYes_MixNo,বুজো,,,{system}/no_apostrophe/utt135.wav
+job0399,utt135,target_only,বুজো,AgrYes_MixNo,বুজো,,,{system}/target_only/utt135.wav
+job0400,utt136,orig,মই আবতৰ বুলি কলো,AgrYes_MixNo,আবতৰ,,,{system}/orig/utt136.wav
+job0401,utt136,no_apostrophe,মই আবতৰ বুলি কলো,AgrYes_MixNo,আবতৰ,,,{system}/no_apostrophe/utt136.wav
+job0402,utt136,target_only,আবতৰ,AgrYes_MixNo,আবতৰ,,,{system}/target_only/utt136.wav
+job0403,utt0137,orig,মই আবতোৰিয়া বুলি কলো,AgrYes_MixYes,আবতোৰিয়া,,,{system}/orig/utt0137.wav
+job0404,utt0137,no_apostrophe,মই আবতোৰিয়া বুলি কলো,AgrYes_MixYes,আবতোৰিয়া,,,{system}/no_apostrophe/utt0137.wav
+job0405,utt0137,target_only,আবতোৰিয়া,AgrYes_MixYes,আবতোৰিয়া,,,{system}/target_only/utt0137.wav
+job0406,utt138,orig,মই কপাহ বুলি কলো,AgrYes_MixYes,কপাহ,,,{system}/orig/utt138.wav
+job0407,utt138,no_apostrophe,মই কপাহ বুলি কলো,AgrYes_MixYes,কপাহ,,,{system}/no_apostrophe/utt138.wav
+job0408,utt138,target_only,কপাহ,AgrYes_MixYes,কপাহ,,,{system}/target_only/utt138.wav
+job0409,utt139,orig,মই কপাহী বুলি কলো,AgrYes_MixYes,কপাহী,,,{system}/orig/utt139.wav
+job0410,utt139,no_apostrophe,মই কপাহী বুলি কলো,AgrYes_MixYes,কপাহী,,,{system}/no_apostrophe/utt139.wav
+job0411,utt139,target_only,কপাহী,AgrYes_MixYes,কপাহী,,,{system}/target_only/utt139.wav
+job0412,utt140,orig,মই বেপাৰ বুলি কলো,AgrYes_MixYes,বেপাৰ,,,{system}/orig/utt140.wav
+job0413,utt140,no_apostrophe,মই বেপাৰ বুলি কলো,AgrYes_MixYes,বেপাৰ,,,{system}/no_apostrophe/utt140.wav
+job0414,utt140,target_only,বেপাৰ,AgrYes_MixYes,বেপাৰ,,,{system}/target_only/utt140.wav
+job0415,utt141,orig,মই বেপাৰি বুলি কলো,AgrYes_MixYes,বেপাৰি,,,{system}/orig/utt141.wav
+job0416,utt141,no_apostrophe,মই বেপাৰি বুলি কলো,AgrYes_MixYes,বেপাৰি,,,{system}/no_apostrophe/utt141.wav
+job0417,utt141,target_only,বেপাৰি,AgrYes_MixYes,বেপাৰি,,,{system}/target_only/utt141.wav
+job0418,utt142,orig,মই উগাৰ বুলি কলো,AgrYes_MixYes,উগাৰ,,,{system}/orig/utt142.wav
+job0419,utt142,no_apostrophe,মই উগাৰ বুলি কলো,AgrYes_MixYes,উগাৰ,,,{system}/no_apostrophe/utt142.wav
+job0420,utt142,target_only,উগাৰ,AgrYes_MixYes,উগাৰ,,,{system}/target_only/utt142.wav
+job0421,utt143,orig,মই উগাৰি বুলি কলো,AgrYes_MixYes,উগাৰি,,,{system}/orig/utt143.wav
+job0422,utt143,no_apostrophe,মই উগাৰি বুলি কলো,AgrYes_MixYes,উগাৰি,,,{system}/no_apostrophe/utt143.wav
+job0423,utt143,target_only,উগাৰি,AgrYes_MixYes,উগাৰি,,,{system}/target_only/utt143.wav
+job0424,utt144,orig,মই লেখাৰু বুলি কলো,AgrYes_MixYes,লেখাৰু,,,{system}/orig/utt144.wav
+job0425,utt144,no_apostrophe,মই লেখাৰু বুলি কলো,AgrYes_MixYes,লেখাৰু,,,{system}/no_apostrophe/utt144.wav
+job0426,utt144,target_only,লেখাৰু,AgrYes_MixYes,লেখাৰু,,,{system}/target_only/utt144.wav
+job0427,utt145,orig,মই গজ বুলি কলো,AgrNo_MixYes,গজ,,,{system}/orig/utt145.wav
+job0428,utt145,no_apostrophe,মই গজ বুলি কলো,AgrNo_MixYes,গজ,,,{system}/no_apostrophe/utt145.wav
+job0429,utt145,target_only,গজ,AgrNo_MixYes,গজ,,,{system}/target_only/utt145.wav
+job0430,utt146,orig,মই গজালি বুলি কলো,AgrYes_MixNo,গজালি,,,{system}/orig/utt146.wav
+job0431,utt146,no_apostrophe,মই গজালি বুলি কলো,AgrYes_MixNo,গজালি,,,{system}/no_apostrophe/utt146.wav
+job0432,utt146,target_only,গজালি,AgrYes_MixNo,গজালি,,,{system}/target_only/utt146.wav
+job0433,utt147,orig,মই জুন বুলি কলো,AgrYes_MixYes,জুন,,,{system}/orig/utt147.wav
+job0434,utt147,no_apostrophe,মই জুন বুলি কলো,AgrYes_MixYes,জুন,,,{system}/no_apostrophe/utt147.wav
+job0435,utt147,target_only,জুন,AgrYes_MixYes,জুন,,,{system}/target_only/utt147.wav
+job0436,utt148,orig,মই জুনালি বুলি কলো,AgrYes_MixNo,জুনালি,,,{system}/orig/utt148.wav
+job0437,utt148,no_apostrophe,মই জুনালি বুলি কলো,AgrYes_MixNo,জুনালি,,,{system}/no_apostrophe/utt148.wav
+job0438,utt148,target_only,জুনালি,AgrYes_MixNo,জুনালি,,,{system}/target_only/utt148.wav
+job0439,utt149,orig,মই ৰুপ বুলি কলো,AgrYes_MixYes,ৰুপ,,,{system}/orig/utt149.wav
+job0440,utt149,no_apostrophe,মই ৰুপ বুলি কলো,AgrYes_MixYes,ৰুপ,,,{system}/no_apostrophe/utt149.wav
+job0441,utt149,target_only,ৰুপ,AgrYes_MixYes,ৰুপ,,,{system}/target_only/utt149.wav
+job0442,utt150,orig,মই ৰুপালি বুলি কলো,AgrYes_MixNo,ৰুপালি,,,{system}/orig/utt150.wav
+job0443,utt150,no_apostrophe,মই ৰুপালি বুলি কলো,AgrYes_MixNo,ৰুপালি,,,{system}/no_apostrophe/utt150.wav
+job0444,utt150,target_only,ৰুপালি,AgrYes_MixNo,ৰুপালি,,,{system}/target_only/utt150.wav
+job0445,utt151,orig,মই সুন বুলি কলো,AgrYes_MixYes,সুন,,,{system}/orig/utt151.wav
+job0446,utt151,no_apostrophe,মই সুন বুলি কলো,AgrYes_MixYes,সুন,,,{system}/no_apostrophe/utt151.wav
+job0447,utt151,target_only,সুন,AgrYes_MixYes,সুন,,,{system}/target_only/utt151.wav
+job0448,utt152,orig,মই সুনাৰু বুলি কলো,AgrYes_MixNo,সুনাৰু,,,{system}/orig/utt152.wav
+job0449,utt152,no_apostrophe,মই সুনাৰু বুলি কলো,AgrYes_MixNo,সুনাৰু,,,{system}/no_apostrophe/utt152.wav
+job0450,utt152,target_only,সুনাৰু,AgrYes_MixNo,সুনাৰু,,,{system}/target_only/utt152.wav
+job0451,utt153,orig,মই জুৱা বুলি কলো,AgrNo_MixYes,জুৱা,,,{system}/orig/utt153.wav
+job0452,utt153,no_apostrophe,মই জুৱা বুলি কলো,AgrNo_MixYes,জুৱা,,,{system}/no_apostrophe/utt153.wav
+job0453,utt153,target_only,জুৱা,AgrNo_MixYes,জুৱা,,,{system}/target_only/utt153.wav
+job0454,utt154,orig,মই জুৱাৰি বুলি কলো,AgrYes_MixYes,জুৱাৰি,,,{system}/orig/utt154.wav
+job0455,utt154,no_apostrophe,মই জুৱাৰি বুলি কলো,AgrYes_MixYes,জুৱাৰি,,,{system}/no_apostrophe/utt154.wav
+job0456,utt154,target_only,জুৱাৰি,AgrYes_MixYes,জুৱাৰি,,,{system}/target_only/utt154.wav
+job0457,utt155,orig,মই পেটাৰি বুলি কলো,AgrYes_MixYes,পেটাৰি,,,{system}/orig/utt155.wav
+job0458,utt155,no_apostrophe,মই পেটাৰি বুলি কলো,AgrYes_MixYes,পেটাৰি,,,{system}/no_apostrophe/utt155.wav
+job0459,utt155,target_only,পেটাৰি,AgrYes_MixYes,পেটাৰি,,,{system}/target_only/utt155.wav
+job0460,utt156,orig,মই সৰ বুলি কলো,AgrYes_MixYes,সৰ,,,{system}/orig/utt156.wav
+job0461,utt156,no_apostrophe,মই সৰ বুলি কলো,AgrYes_MixYes,সৰ,,,{system}/no_apostrophe/utt156.wav
+job0462,utt156,target_only,সৰ,AgrYes_MixYes,সৰ,,,{system}/target_only/utt156.wav
+job0463,utt157,orig,মই সৰিয়া বুলি কলো,AgrYes_MixNo,সৰিয়া,,,{system}/orig/utt157.wav
+job0464,utt157,no_apostrophe,মই সৰিয়া বুলি কলো,AgrYes_MixNo,সৰিয়া,,,{system}/no_apostrophe/utt157.wav
+job0465,utt157,target_only,সৰিয়া,AgrYes_MixNo,সৰিয়া,,,{system}/target_only/utt157.wav
+job0466,utt158,orig,মই তেল বুলি কলো,AgrYes_MixYes,তেল,,,{system}/orig/utt158.wav
+job0467,utt158,no_apostrophe,মই তেল বুলি কলো,AgrYes_MixYes,তেল,,,{system}/no_apostrophe/utt158.wav
+job0468,utt158,target_only,তেল,AgrYes_MixYes,তেল,,,{system}/target_only/utt158.wav
+job0469,utt159,orig,মই তেলিয়া বুলি কলো,AgrYes_MixNo,তেলিয়া,,,{system}/orig/utt159.wav
+job0470,utt159,no_apostrophe,মই তেলিয়া বুলি কলো,AgrYes_MixNo,তেলিয়া,,,{system}/no_apostrophe/utt159.wav
+job0471,utt159,target_only,তেলিয়া,AgrYes_MixNo,তেলিয়া,,,{system}/target_only/utt159.wav
+job0472,utt160,orig,মই বয়স বুলি কলো,AgrYes_MixYes,বয়স,,,{system}/orig/utt160.wav
+job0473,utt160,no_apostrophe,মই বয়স বুলি কলো,AgrYes_MixYes,বয়স,,,{system}/no_apostrophe/utt160.wav
+job0474,utt160,target_only,বয়স,AgrYes_MixYes,বয়স,,,{system}/target_only/utt160.wav
+job0475,utt161,orig,মই বয়সিয়া বুলি কলো,AgrYes_MixNo,বয়সিয়া,,,{system}/orig/utt161.wav
+job0476,utt161,no_apostrophe,মই বয়সিয়া বুলি কলো,AgrYes_MixNo,বয়সিয়া,,,{system}/no_apostrophe/utt161.wav
+job0477,utt161,target_only,বয়সিয়া,AgrYes_MixNo,বয়সিয়া,,,{system}/target_only/utt161.wav
+job0478,utt162,orig,মই তলত বুলি কলো,AgrYes_MixYes,তলত,,,{system}/orig/utt162.wav
+job0479,utt162,no_apostrophe,মই তলত বুলি কলো,AgrYes_MixYes,তলত,,,{system}/no_apostrophe/utt162.wav
+job0480,utt162,target_only,তলত,AgrYes_MixYes,তলত,,,{system}/target_only/utt162.wav
+job0481,utt163,orig,মই তলতিয়া বুলি কলো,AgrYes_MixNo,তলতিয়া,,,{system}/orig/utt163.wav
+job0482,utt163,no_apostrophe,মই তলতিয়া বুলি কলো,AgrYes_MixNo,তলতিয়া,,,{system}/no_apostrophe/utt163.wav
+job0483,utt163,target_only,তলতিয়া,AgrYes_MixNo,তলতিয়া,,,{system}/target_only/utt163.wav
+job0484,utt164,orig,মই সাল বুলি কলো,AgrYes_MixYes,সাল,,,{system}/orig/utt164.wav
+job0485,utt164,no_apostrophe,মই সাল বুলি কলো,AgrYes_MixYes,সাল,,,{system}/no_apostrophe/utt164.wav
+job0486,utt164,target_only,সাল,AgrYes_MixYes,সাল,,,{system}/target_only/utt164.wav
+job0487,utt165,orig,মই সলিয়া বুলি কলো,AgrYes_MixYes,সলিয়া,,,{system}/orig/utt165.wav
+job0488,utt165,no_apostrophe,মই সলিয়া বুলি কলো,AgrYes_MixYes,সলিয়া,,,{system}/no_apostrophe/utt165.wav
+job0489,utt165,target_only,সলিয়া,AgrYes_MixYes,সলিয়া,,,{system}/target_only/utt165.wav
+job0490,utt166,orig,মই দাল বুলি কলো,AgrYes_MixYes,দাল,,,{system}/orig/utt166.wav
+job0491,utt166,no_apostrophe,মই দাল বুলি কলো,AgrYes_MixYes,দাল,,,{system}/no_apostrophe/utt166.wav
+job0492,utt166,target_only,দাল,AgrYes_MixYes,দাল,,,{system}/target_only/utt166.wav
+job0493,utt167,orig,মই দলিয়া বুলি কলো,AgrYes_MixYes,দলিয়া,,,{system}/orig/utt167.wav
+job0494,utt167,no_apostrophe,মই দলিয়া বুলি কলো,AgrYes_MixYes,দলিয়া,,,{system}/no_apostrophe/utt167.wav
+job0495,utt167,target_only,দলিয়া,AgrYes_MixYes,দলিয়া,,,{system}/target_only/utt167.wav
+job0496,utt168,orig,মই ধাৰ বুলি কলো,AgrYes_MixYes,ধাৰ,,,{system}/orig/utt168.wav
+job0497,utt168,no_apostrophe,মই ধাৰ বুলি কলো,AgrYes_MixYes,ধাৰ,,,{system}/no_apostrophe/utt168.wav
+job0498,utt168,target_only,ধাৰ,AgrYes_MixYes,ধাৰ,,,{system}/target_only/utt168.wav
+job0499,utt169,orig,মই ধৰুৱা বুলি কলো,AgrYes_MixYes,ধৰুৱা,,,{system}/orig/utt169.wav
+job0500,utt169,no_apostrophe,মই ধৰুৱা বুলি কলো,AgrYes_MixYes,ধৰুৱা,,,{system}/no_apostrophe/utt169.wav
+job0501,utt169,target_only,ধৰুৱা,AgrYes_MixYes,ধৰুৱা,,,{system}/target_only/utt169.wav
+job0502,utt170,orig,মই মাৰ বুলি কলো,AgrYes_MixYes,মাৰ,,,{system}/orig/utt170.wav
+job0503,utt170,no_apostrophe,মই মাৰ বুলি কলো,AgrYes_MixYes,মাৰ,,,{system}/no_apostrophe/utt170.wav
+job0504,utt170,target_only,মাৰ,AgrYes_MixYes,মাৰ,,,{system}/target_only/utt170.wav
+job0505,utt171,orig,মই মৰিয়া বুলি কলো,AgrYes_MixYes,মৰিয়া,,,{system}/orig/utt171.wav
+job0506,utt171,no_apostrophe,মই মৰিয়া বুলি কলো,AgrYes_MixYes,মৰিয়া,,,{system}/no_apostrophe/utt171.wav
+job0507,utt171,target_only,মৰিয়া,AgrYes_MixYes,মৰিয়া,,,{system}/target_only/utt171.wav
+job0508,utt172,orig,মই পাতল বুলি কলো,AgrYes_MixYes,পাতল,,,{system}/orig/utt172.wav
+job0509,utt172,no_apostrophe,মই পাতল বুলি কলো,AgrYes_MixYes,পাতল,,,{system}/no_apostrophe/utt172.wav
+job0510,utt172,target_only,পাতল,AgrYes_MixYes,পাতল,,,{system}/target_only/utt172.wav
+job0511,utt173,orig,মই পাতলিয়া বুলি কলো,AgrYes_MixYes,পাতলিয়া,,,{system}/orig/utt173.wav
+job0512,utt173,no_apostrophe,মই পাতলিয়া বুলি কলো,AgrYes_MixYes,পাতলিয়া,,,{system}/no_apostrophe/utt173.wav
+job0513,utt173,target_only,পাতলিয়া,AgrYes_MixYes,পাতলিয়া,,,{system}/target_only/utt173.wav
+job0514,utt174,orig,মই আপদ বুলি কলো,AgrYes_MixYes,আপদ,,,{system}/orig/utt174.wav
+job0515,utt174,no_apostrophe,মই আপদ বুলি কলো,AgrYes_MixYes,আপদ,,,{system}/no_apostrophe/utt174.wav
+job0516,utt174,target_only,আপদ,AgrYes_MixYes,আপদ,,,{system}/target_only/utt174.wav
+job0517,utt175,orig,মই আপদিয়া বুলি কলো,AgrYes_MixYes,আপদিয়া,,,{system}/orig/utt175.wav
+job0518,utt175,no_apostrophe,মই আপদিয়া বুলি কলো,AgrYes_MixYes,আপদিয়া,,,{system}/no_apostrophe/utt175.wav
+job0519,utt175,target_only,আপদিয়া,AgrYes_MixYes,আপদিয়া,,,{system}/target_only/utt175.wav
+job0520,utt176,orig,মই আলাখ বুলি কলো,AgrYes_MixYes,আলাখ,,,{system}/orig/utt176.wav
+job0521,utt176,no_apostrophe,মই আলাখ বুলি কলো,AgrYes_MixYes,আলাখ,,,{system}/no_apostrophe/utt176.wav
+job0522,utt176,target_only,আলাখ,AgrYes_MixYes,আলাখ,,,{system}/target_only/utt176.wav
+job0523,utt177,orig,মই আলসুৱা বুলি কলো,AgrYes_MixYes,আলসুৱা,,,{system}/orig/utt177.wav
+job0524,utt177,no_apostrophe,মই আলসুৱা বুলি কলো,AgrYes_MixYes,আলসুৱা,,,{system}/no_apostrophe/utt177.wav
+job0525,utt177,target_only,আলসুৱা,AgrYes_MixYes,আলসুৱা,,,{system}/target_only/utt177.wav
+job0526,utt178,orig,মই আধা বুলি কলো,AgrYes_MixYes,আধা,,,{system}/orig/utt178.wav
+job0527,utt178,no_apostrophe,মই আধা বুলি কলো,AgrYes_MixYes,আধা,,,{system}/no_apostrophe/utt178.wav
+job0528,utt178,target_only,আধা,AgrYes_MixYes,আধা,,,{system}/target_only/utt178.wav
+job0529,utt179,orig,মই আধৰুৱা বুলি কলো,AgrYes_MixYes,আধৰুৱা,,,{system}/orig/utt179.wav
+job0530,utt179,no_apostrophe,মই আধৰুৱা বুলি কলো,AgrYes_MixYes,আধৰুৱা,,,{system}/no_apostrophe/utt179.wav
+job0531,utt179,target_only,আধৰুৱা,AgrYes_MixYes,আধৰুৱা,,,{system}/target_only/utt179.wav
+job0532,utt180,orig,মই মিছা বুলি কলো,AgrYes_MixYes,মিছা,,,{system}/orig/utt180.wav
+job0533,utt180,no_apostrophe,মই মিছা বুলি কলো,AgrYes_MixYes,মিছা,,,{system}/no_apostrophe/utt180.wav
+job0534,utt180,target_only,মিছা,AgrYes_MixYes,মিছা,,,{system}/target_only/utt180.wav
+job0535,utt181,orig,মই মিছলিয়া বুলি কলো,AgrYes_MixYes,মিছলিয়া,,,{system}/orig/utt181.wav
+job0536,utt181,no_apostrophe,মই মিছলিয়া বুলি কলো,AgrYes_MixYes,মিছলিয়া,,,{system}/no_apostrophe/utt181.wav
+job0537,utt181,target_only,মিছলিয়া,AgrYes_MixYes,মিছলিয়া,,,{system}/target_only/utt181.wav
+job0538,utt182,orig,মই কিতাপ বুলি কলো,AgrYes_MixYes,কিতাপ,,,{system}/orig/utt182.wav
+job0539,utt182,no_apostrophe,মই কিতাপ বুলি কলো,AgrYes_MixYes,কিতাপ,,,{system}/no_apostrophe/utt182.wav
+job0540,utt182,target_only,কিতাপ,AgrYes_MixYes,কিতাপ,,,{system}/target_only/utt182.wav
+job0541,utt183,orig,মই কিতাপীয়া বুলি কলো,AgrYes_MixYes,কিতাপীয়া,,,{system}/orig/utt183.wav
+job0542,utt183,no_apostrophe,মই কিতাপীয়া বুলি কলো,AgrYes_MixYes,কিতাপীয়া,,,{system}/no_apostrophe/utt183.wav
+job0543,utt183,target_only,কিতাপীয়া,AgrYes_MixYes,কিতাপীয়া,,,{system}/target_only/utt183.wav
+job0544,utt184,orig,মই পিক্সাস বুলি কলো,AgrYes_MixYes,পিক্সাস,,,{system}/orig/utt184.wav
+job0545,utt184,no_apostrophe,মই পিক্সাস বুলি কলো,AgrYes_MixYes,পিক্সাস,,,{system}/no_apostrophe/utt184.wav
+job0546,utt184,target_only,পিক্সাস,AgrYes_MixYes,পিক্সাস,,,{system}/target_only/utt184.wav
+job0547,utt185,orig,মই পিক্স’ছিয়া বুলি কলো,AgrYes_MixYes,পিক্স’ছিয়া,,,{system}/orig/utt185.wav
+job0548,utt185,no_apostrophe,মই পিক্স’ছিয়া বুলি কলো,AgrYes_MixYes,পিক্স’ছিয়া,,,{system}/no_apostrophe/utt185.wav
+job0549,utt185,target_only,পিক্স’ছিয়া,AgrYes_MixYes,পিক্স’ছিয়া,,,{system}/target_only/utt185.wav
+job0550,utt186,orig,মই কপাল বুলি কলো,AgrYes_MixYes,কপাল,,,{system}/orig/utt186.wav
+job0551,utt186,no_apostrophe,মই কপাল বুলি কলো,AgrYes_MixYes,কপাল,,,{system}/no_apostrophe/utt186.wav
+job0552,utt186,target_only,কপাল,AgrYes_MixYes,কপাল,,,{system}/target_only/utt186.wav
+job0553,utt187,orig,মই কপলীয়া বুলি কলো,AgrYes_MixYes,কপলীয়া,,,{system}/orig/utt187.wav
+job0554,utt187,no_apostrophe,মই কপলীয়া বুলি কলো,AgrYes_MixYes,কপলীয়া,,,{system}/no_apostrophe/utt187.wav
+job0555,utt187,target_only,কপলীয়া,AgrYes_MixYes,কপলীয়া,,,{system}/target_only/utt187.wav
+job0556,utt188,orig,মই ধেমাল বুলি কলো,AgrYes_MixYes,ধেমাল,,,{system}/orig/utt188.wav
+job0557,utt188,no_apostrophe,মই ধেমাল বুলি কলো,AgrYes_MixYes,ধেমাল,,,{system}/no_apostrophe/utt188.wav
+job0558,utt188,target_only,ধেমাল,AgrYes_MixYes,ধেমাল,,,{system}/target_only/utt188.wav
+job0559,utt189,orig,মই ধেমেলিয়া বুলি কলো,AgrYes_MixYes,ধেমেলিয়া,,,{system}/orig/utt189.wav
+job0560,utt189,no_apostrophe,মই ধেমেলিয়া বুলি কলো,AgrYes_MixYes,ধেমেলিয়া,,,{system}/no_apostrophe/utt189.wav
+job0561,utt189,target_only,ধেমেলিয়া,AgrYes_MixYes,ধেমেলিয়া,,,{system}/target_only/utt189.wav
+job0562,utt190,orig,মই গুলাপ বুলি কলো,AgrYes_MixYes,গুলাপ,,,{system}/orig/utt190.wav
+job0563,utt190,no_apostrophe,মই গুলাপ বুলি কলো,AgrYes_MixYes,গুলাপ,,,{system}/no_apostrophe/utt190.wav
+job0564,utt190,target_only,গুলাপ,AgrYes_MixYes,গুলাপ,,,{system}/target_only/utt190.wav
+job0565,utt191,orig,মই গুলোপীয়া বুলি কলো,AgrYes_MixYes,গুলোপীয়া,,,{system}/orig/utt191.wav
+job0566,utt191,no_apostrophe,মই গুলোপীয়া বুলি কলো,AgrYes_MixYes,গুলোপীয়া,,,{system}/no_apostrophe/utt191.wav
+job0567,utt191,target_only,গুলোপীয়া,AgrYes_MixYes,গুলোপীয়া,,,{system}/target_only/utt191.wav
+job0568,utt192,orig,মই বজাৰ বুলি কলো,AgrYes_MixYes,বজাৰ,,,{system}/orig/utt192.wav
+job0569,utt192,no_apostrophe,মই বজাৰ বুলি কলো,AgrYes_MixYes,বজাৰ,,,{system}/no_apostrophe/utt192.wav
+job0570,utt192,target_only,বজাৰ,AgrYes_MixYes,বজাৰ,,,{system}/target_only/utt192.wav
+job0571,utt193,orig,মই বজাৰুৱা বুলি কলো,AgrYes_MixYes,বজাৰুৱা,,,{system}/orig/utt193.wav
+job0572,utt193,no_apostrophe,মই বজাৰুৱা বুলি কলো,AgrYes_MixYes,বজাৰুৱা,,,{system}/no_apostrophe/utt193.wav
+job0573,utt193,target_only,বজাৰুৱা,AgrYes_MixYes,বজাৰুৱা,,,{system}/target_only/utt193.wav
+job0574,utt194,orig,মই কেচা বুলি কলো,AgrYes_MixYes,কেচা,,,{system}/orig/utt194.wav
+job0575,utt194,no_apostrophe,মই কেচা বুলি কলো,AgrYes_MixYes,কেচা,,,{system}/no_apostrophe/utt194.wav
+job0576,utt194,target_only,কেচা,AgrYes_MixYes,কেচা,,,{system}/target_only/utt194.wav
+job0577,utt195,orig,মই কেচেলুৱা বুলি কলো,AgrYes_MixYes,কেচেলুৱা,,,{system}/orig/utt195.wav
+job0578,utt195,no_apostrophe,মই কেচেলুৱা বুলি কলো,AgrYes_MixYes,কেচেলুৱা,,,{system}/no_apostrophe/utt195.wav
+job0579,utt195,target_only,কেচেলুৱা,AgrYes_MixYes,কেচেলুৱা,,,{system}/target_only/utt195.wav
+job0580,utt196,orig,মই ডেকা বুলি কলো,AgrYes_MixYes,ডেকা,,,{system}/orig/utt196.wav
+job0581,utt196,no_apostrophe,মই ডেকা বুলি কলো,AgrYes_MixYes,ডেকা,,,{system}/no_apostrophe/utt196.wav
+job0582,utt196,target_only,ডেকা,AgrYes_MixYes,ডেকা,,,{system}/target_only/utt196.wav
+job0583,utt197,orig,মই ডেকেৰুৱা বুলি কলো,AgrYes_MixYes,ডেকেৰুৱা,,,{system}/orig/utt197.wav
+job0584,utt197,no_apostrophe,মই ডেকেৰুৱা বুলি কলো,AgrYes_MixYes,ডেকেৰুৱা,,,{system}/no_apostrophe/utt197.wav
+job0585,utt197,target_only,ডেকেৰুৱা,AgrYes_MixYes,ডেকেৰুৱা,,,{system}/target_only/utt197.wav
+job0586,utt198,orig,মই শক্তি বুলি কলো,AgrYes_MixYes,শক্তি,,,{system}/orig/utt198.wav
+job0587,utt198,no_apostrophe,মই শক্তি বুলি কলো,AgrYes_MixYes,শক্তি,,,{system}/no_apostrophe/utt198.wav
+job0588,utt198,target_only,শক্তি,AgrYes_MixYes,শক্তি,,,{system}/target_only/utt198.wav
+job0589,utt199,orig,মই গুস্থি বুলি কলো,AgrYes_MixNo,গুস্থি,,,{system}/orig/utt199.wav
+job0590,utt199,no_apostrophe,মই গুস্থি বুলি কলো,AgrYes_MixNo,গুস্থি,,,{system}/no_apostrophe/utt199.wav
+job0591,utt199,target_only,গুস্থি,AgrYes_MixNo,গুস্থি,,,{system}/target_only/utt199.wav
+job0592,utt200,orig,মই ফোৰমুথি বুলি কলো,AgrYes_MixNo,ফোৰমুথি,,,{system}/orig/utt200.wav
+job0593,utt200,no_apostrophe,মই ফোৰমুথি বুলি কলো,AgrYes_MixNo,ফোৰমুথি,,,{system}/no_apostrophe/utt200.wav
+job0594,utt200,target_only,ফোৰমুথি,AgrYes_MixNo,ফোৰমুথি,,,{system}/target_only/utt200.wav
+job0595,utt201,orig,মই বেলি বুলি কলো,AgrYes_MixNo,বেলি,,,{system}/orig/utt201.wav
+job0596,utt201,no_apostrophe,মই বেলি বুলি কলো,AgrYes_MixNo,বেলি,,,{system}/no_apostrophe/utt201.wav
+job0597,utt201,target_only,বেলি,AgrYes_MixNo,বেলি,,,{system}/target_only/utt201.wav
+job0598,utt202,orig,মই পেলু বুলি কলো,AgrYes_MixNo,পেলু,,,{system}/orig/utt202.wav
+job0599,utt202,no_apostrophe,মই পেলু বুলি কলো,AgrYes_MixNo,পেলু,,,{system}/no_apostrophe/utt202.wav
+job0600,utt202,target_only,পেলু,AgrYes_MixNo,পেলু,,,{system}/target_only/utt202.wav
+job0601,utt203,orig,মই টেটেলি বুলি কলো,AgrYes_MixNo,টেটেলি,,,{system}/orig/utt203.wav
+job0602,utt203,no_apostrophe,মই টেটেলি বুলি কলো,AgrYes_MixNo,টেটেলি,,,{system}/no_apostrophe/utt203.wav
+job0603,utt203,target_only,টেটেলি,AgrYes_MixNo,টেটেলি,,,{system}/target_only/utt203.wav
+job0604,utt204,orig,মই টেৰা বুলি কলো,AgrYes_MixNo,টেৰা,,,{system}/orig/utt204.wav
+job0605,utt204,no_apostrophe,মই টেৰা বুলি কলো,AgrYes_MixNo,টেৰা,,,{system}/no_apostrophe/utt204.wav
+job0606,utt204,target_only,টেৰা,AgrYes_MixNo,টেৰা,,,{system}/target_only/utt204.wav
+job0607,utt205,orig,মই বেটন বুলি কলো,AgrYes_MixNo,বেটন,,,{system}/orig/utt205.wav
+job0608,utt205,no_apostrophe,মই বেটন বুলি কলো,AgrYes_MixNo,বেটন,,,{system}/no_apostrophe/utt205.wav
+job0609,utt205,target_only,বেটন,AgrYes_MixNo,বেটন,,,{system}/target_only/utt205.wav
+job0610,utt206,orig,মই সুধ বুলি কলো,AgrYes_MixNo,সুধ,,,{system}/orig/utt206.wav
+job0611,utt206,no_apostrophe,মই সুধ বুলি কলো,AgrYes_MixNo,সুধ,,,{system}/no_apostrophe/utt206.wav
+job0612,utt206,target_only,সুধ,AgrYes_MixNo,সুধ,,,{system}/target_only/utt206.wav
+job0613,utt207,orig,মই সুধাৰু বুলি কলো,AgrYes_MixNo,সুধাৰু,,,{system}/orig/utt207.wav
+job0614,utt207,no_apostrophe,মই সুধাৰু বুলি কলো,AgrYes_MixNo,সুধাৰু,,,{system}/no_apostrophe/utt207.wav
+job0615,utt207,target_only,সুধাৰু,AgrYes_MixNo,সুধাৰু,,,{system}/target_only/utt207.wav
+job0616,utt208,orig,মই ভুগ বুলি কলো,AgrNo_MixYes,ভুগ,,,{system}/orig/utt208.wav
+job0617,utt208,no_apostrophe,মই ভুগ বুলি কলো,AgrNo_MixYes,ভুগ,,,{system}/no_apostrophe/utt208.wav
+job0618,utt208,target_only,ভুগ,AgrNo_MixYes,ভুগ,,,{system}/target_only/utt208.wav
+job0619,utt209,orig,মই ভুগালি বুলি কলো,AgrYes_MixNo,ভুগালি,,,{system}/orig/utt209.wav
+job0620,utt209,no_apostrophe,মই ভুগালি বুলি কলো,AgrYes_MixNo,ভুগালি,,,{system}/no_apostrophe/utt209.wav
+job0621,utt209,target_only,ভুগালি,AgrYes_MixNo,ভুগালি,,,{system}/target_only/utt209.wav
+job0622,utt210,orig,মই সুন বুলি কলো,AgrYes_MixYes,সুন,,,{system}/orig/utt210.wav
+job0623,utt210,no_apostrophe,মই সুন বুলি কলো,AgrYes_MixYes,সুন,,,{system}/no_apostrophe/utt210.wav
+job0624,utt210,target_only,সুন,AgrYes_MixYes,সুন,,,{system}/target_only/utt210.wav
+job0625,utt211,orig,মই সুনালি বুলি কলো,AgrYes_MixYes,সুনালি,,,{system}/orig/utt211.wav
+job0626,utt211,no_apostrophe,মই সুনালি বুলি কলো,AgrYes_MixYes,সুনালি,,,{system}/no_apostrophe/utt211.wav
+job0627,utt211,target_only,সুনালি,AgrYes_MixYes,সুনালি,,,{system}/target_only/utt211.wav
+job0628,utt212,orig,মই খৰ বুলি কলো,AgrYes_MixNo,খৰ,,,{system}/orig/utt212.wav
+job0629,utt212,no_apostrophe,মই খৰ বুলি কলো,AgrYes_MixNo,খৰ,,,{system}/no_apostrophe/utt212.wav
+job0630,utt212,target_only,খৰ,AgrYes_MixNo,খৰ,,,{system}/target_only/utt212.wav
+job0631,utt213,orig,মই খৰালি বুলি কলো,AgrYes_MixYes,খৰালি,,,{system}/orig/utt213.wav
+job0632,utt213,no_apostrophe,মই খৰালি বুলি কলো,AgrYes_MixYes,খৰালি,,,{system}/no_apostrophe/utt213.wav
+job0633,utt213,target_only,খৰালি,AgrYes_MixYes,খৰালি,,,{system}/target_only/utt213.wav
+job0634,utt214,orig,মই বেজ বুলি কলো,AgrYes_MixNo,বেজ,,,{system}/orig/utt214.wav
+job0635,utt214,no_apostrophe,মই বেজ বুলি কলো,AgrYes_MixNo,বেজ,,,{system}/no_apostrophe/utt214.wav
+job0636,utt214,target_only,বেজ,AgrYes_MixNo,বেজ,,,{system}/target_only/utt214.wav
+job0637,utt215,orig,মই বেজালি বুলি কলো,AgrYes_MixYes,বেজালি,,,{system}/orig/utt215.wav
+job0638,utt215,no_apostrophe,মই বেজালি বুলি কলো,AgrYes_MixYes,বেজালি,,,{system}/no_apostrophe/utt215.wav
+job0639,utt215,target_only,বেজালি,AgrYes_MixYes,বেজালি,,,{system}/target_only/utt215.wav
+job0640,utt216,orig,মই সাপৰ বুলি কলো,AgrYes_MixYes,সাপৰ,,,{system}/orig/utt216.wav
+job0641,utt216,no_apostrophe,মই সাপৰ বুলি কলো,AgrYes_MixYes,সাপৰ,,,{system}/no_apostrophe/utt216.wav
+job0642,utt216,target_only,সাপৰ,AgrYes_MixYes,সাপৰ,,,{system}/target_only/utt216.wav
+job0643,utt217,orig,মই সাপৰি বুলি কলো,AgrYes_MixYes,সাপৰি,,,{system}/orig/utt217.wav
+job0644,utt217,no_apostrophe,মই সাপৰি বুলি কলো,AgrYes_MixYes,সাপৰি,,,{system}/no_apostrophe/utt217.wav
+job0645,utt217,target_only,সাপৰি,AgrYes_MixYes,সাপৰি,,,{system}/target_only/utt217.wav
+job0646,utt218,orig,মই পাহৰ বুলি কলো,AgrYes_MixYes,পাহৰ,,,{system}/orig/utt218.wav
+job0647,utt218,no_apostrophe,মই পাহৰ বুলি কলো,AgrYes_MixYes,পাহৰ,,,{system}/no_apostrophe/utt218.wav
+job0648,utt218,target_only,পাহৰ,AgrYes_MixYes,পাহৰ,,,{system}/target_only/utt218.wav
+job0649,utt219,orig,মই পাহৰি বুলি কলো,AgrYes_MixYes,পাহৰি,,,{system}/orig/utt219.wav
+job0650,utt219,no_apostrophe,মই পাহৰি বুলি কলো,AgrYes_MixYes,পাহৰি,,,{system}/no_apostrophe/utt219.wav
+job0651,utt219,target_only,পাহৰি,AgrYes_MixYes,পাহৰি,,,{system}/target_only/utt219.wav
+job0652,utt220,orig,মই পালে বুলি কলো,AgrYes_MixYes,পালে,,,{system}/orig/utt220.wav
+job0653,utt220,no_apostrophe,মই পালে বুলি কলো,AgrYes_MixYes,পালে,,,{system}/no_apostrophe/utt220.wav
+job0654,utt220,target_only,পালে,AgrYes_MixYes,পালে,,,{system}/target_only/utt220.wav
+job0655,utt221,orig,মই পালেহি বুলি কলো,AgrYes_MixYes,পালেহি,,,{system}/orig/utt221.wav
+job0656,utt221,no_apostrophe,মই পালেহি বুলি কলো,AgrYes_MixYes,পালেহি,,,{system}/no_apostrophe/utt221.wav
+job0657,utt221,target_only,পালেহি,AgrYes_MixYes,পালেহি,,,{system}/target_only/utt221.wav
+job0658,utt222,orig,মই খালে বুলি কলো,AgrYes_MixYes,খালে,,,{system}/orig/utt222.wav
+job0659,utt222,no_apostrophe,মই খালে বুলি কলো,AgrYes_MixYes,খালে,,,{system}/no_apostrophe/utt222.wav
+job0660,utt222,target_only,খালে,AgrYes_MixYes,খালে,,,{system}/target_only/utt222.wav
+job0661,utt223,orig,মই খালেহি বুলি কলো,AgrYes_MixYes,খালেহি,,,{system}/orig/utt223.wav
+job0662,utt223,no_apostrophe,,AgrYes_MixYes,খালেহি,,,{system}/no_apostrophe/utt223.wav
+job0663,utt223,target_only,খালেহি,AgrYes_MixYes,খালেহি,,,{system}/target_only/utt223.wav
+job0664,,orig,,,,,,{system}/orig/nan.wav
+job0665,,no_apostrophe,,,,,,{system}/no_apostrophe/nan.wav
+job0666,,target_only,,,,,,{system}/target_only/nan.wav
