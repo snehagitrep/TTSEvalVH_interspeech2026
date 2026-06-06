@@ -1,28 +1,21 @@
 # Towards a Phonology-Informed Evaluation of Multilingual TTS
 
-Code for the Interspeech 2026 paper:
-
-> *Towards a Phonology-Informed Evaluation of Multilingual TTS*
-
 We propose a classifier-based framework that audits TTS output against
-language-specific phonological patterns using human speech as a baseline. The
-test case is Assamese ATR vowel harmony evaluated against Meta's MMS TTS
+language-specific phonological patterns using human speech as a benchmark. The
+test case is Assamese advanced tongue root (ATR) vowel harmony evaluated against Meta's MMS TTS
 (`facebook/mms-tts-asm`).
 
 ---
 
 ## Overview
 
-The pipeline has five stages, each implemented as a standalone script:
+The pipeline has the following stages, each implemented as a standalone script:
 
 ```
-1. prepare_manifest.py   — build synthesis job list from stimuli spreadsheet
-2. mms_synthesize.py     — batch-synthesize speech with MMS TTS
+1. mms_synthesize.py     — batch-synthesize speech with MMS TTS
    └── FormantPro.praat  — extract formants in Praat (manual step)
-3. merge_harmonytype.py  — attach harmony labels to formant logs
 4. task1_crossdomain.py  — Task 1: vowel-level ATR classification (Table 2)
 5. task2_pipeline.py     — Task 2: faithfulness audit + harmony classification (Tables 3–4)
-   figures.py            — reproduce paper figures (Figs 1–4)
    spectrogram.py        — reproduce spectrogram panel (Fig 3 inset)
 ```
 
@@ -45,7 +38,7 @@ Tested with Python 3.9–3.11.
 
 Human recordings were collected from 14 adult native speakers of Assamese
 (upper Assam region). Due to speaker privacy, raw audio is not redistributed.
-The formant measurements extracted from those recordings
+A sample of the formant measurements extracted from those recordings
 (`human_formant_output_merged.xlsx`) are available in the data release
 accompanying the paper.
 
@@ -83,6 +76,7 @@ Save the output as `mms_formantlog_merged.xlsx`. The same script was used for
 the human recordings. Outlier bounds applied downstream:
 F1 150–1200 Hz, F2 500–3500 Hz, F3 1500–4500 Hz, B1 ≤ 400 Hz.
 
+<!-- 
 ### Step 3 — merge harmony labels
 
 ```bash
@@ -93,9 +87,10 @@ python merge_harmonytype.py \
     --out_dir .
 ```
 
-Outputs: `human_formant_with_harmony.xlsx`, `tts_formant_with_harmony.xlsx`.
+Outputs: `human_formant_with_harmony.xlsx`, `tts_formant_with_harmony.xlsx`.-->
 
-### Step 4 — Task 1: cross-domain ATR classification
+
+### Step 3 — Task 1: cross-domain ATR classification
 
 ```bash
 python task1_crossdomain.py \
@@ -103,9 +98,10 @@ python task1_crossdomain.py \
     --tts   tts_formant_with_harmony.xlsx
 ```
 
-Prints Table 2 (Acc and macro F1 for all four transfer directions, LR and RF).
+<!-- Prints Table 2 (Acc and macro F1 for all four transfer directions, LR and RF).-->
 
-### Step 5 — Task 2: faithfulness audit + harmony classification
+
+### Step 4 — Task 2: faithfulness audit + harmony classification
 
 ```bash
 python task2_pipeline.py \
@@ -114,20 +110,10 @@ python task2_pipeline.py \
     --out_dir .
 ```
 
+<!-- 
 Prints Tables 3 and 4. Saves `human_word_features.xlsx`,
-`tts_word_features.xlsx`, and `task2_results.xlsx`.
+`tts_word_features.xlsx`, and `task2_results.xlsx`.-->
 
-### Step 6 — figures
-
-```bash
-python figures.py \
-    --human   human_formant_with_harmony.xlsx \
-    --tts     tts_formant_with_harmony.xlsx \
-    --out_dir figures/
-```
-
-Produces `fig1_vowel_space.{png,pdf}`, `fig2_mismatch.{png,pdf}`,
-`fig3_transfer_gap.{png,pdf}`, `fig4_confusion_matrices.{png,pdf}`.
 
 For the spectrogram panel (Figure 3 inset), provide matching WAV and TextGrid
 files:
@@ -153,23 +139,3 @@ and a human baseline. The minimum required changes are:
 3. Adjust the outlier bounds to match the formant range of your language.
 4. Provide a new stimuli CSV and formant log in the same column format.
 
----
-
-## Citation
-
-If you use this code, please cite:
-
-```
-@inproceedings{author2026phonology,
-  title     = {Towards a Phonology-Informed Evaluation of Multilingual {TTS}},
-  booktitle = {Proc. Interspeech},
-  year      = {2026},
-}
-```
-
----
-
-## License
-
-Code: MIT.  
-MMS-TTS model weights: CC-BY-NC 4.0 (non-commercial use only).
